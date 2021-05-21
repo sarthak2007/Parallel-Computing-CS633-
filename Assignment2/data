@@ -1,0 +1,2160 @@
+
+E = 1, P = 4, ppn = 1, D = 16
+MPI_Bcast_default time = 0.027010
+MPI_Bcast_optimized time optimized without comms = 0.028200
+MPI_Bcast_optimized time only comms = 0.123763
+MPI_Bcast_optimized time with comms = 0.151962
+MPI_Reduce_default time = 0.026289
+MPI_Reduce_optimized time optimized without comms = 0.031785
+MPI_Reduce_optimized time only comms = 0.147956
+MPI_Reduce_optimized time with comms = 0.179741
+MPI_Gather_default time = 0.012072
+MPI_Gather_optimized time optimized without comms = 0.001332
+MPI_Gather_optimized time only comms = 0.135945
+MPI_Gather_optimized time with comms= 0.137277
+MPI_Alltoallv_default time = 0.022550
+MPI_Alltoallv_optimized time without comms = 0.036756
+MPI_Alltoallv_optimized time only comms = 0.066403
+MPI_Alltoallv_optimized time with comms = 0.103160
+
+E = 1, P = 4, ppn = 1, D = 256
+MPI_Bcast_default time = 0.114803
+MPI_Bcast_optimized time optimized without comms = 0.126509
+MPI_Bcast_optimized time only comms = 0.151346
+MPI_Bcast_optimized time with comms = 0.277855
+MPI_Reduce_default time = 0.347117
+MPI_Reduce_optimized time optimized without comms = 0.230920
+MPI_Reduce_optimized time only comms = 0.260116
+MPI_Reduce_optimized time with comms = 0.491035
+MPI_Gather_default time = 0.586362
+MPI_Gather_optimized time optimized without comms = 1.026326
+MPI_Gather_optimized time only comms = 1.008353
+MPI_Gather_optimized time with comms= 2.034679
+MPI_Alltoallv_default time = 0.142283
+MPI_Alltoallv_optimized time without comms = 0.483596
+MPI_Alltoallv_optimized time only comms = 0.301195
+MPI_Alltoallv_optimized time with comms = 0.784791
+
+E = 1, P = 4, ppn = 1, D = 2048
+MPI_Bcast_default time = 0.411026
+MPI_Bcast_optimized time optimized without comms = 0.535616
+MPI_Bcast_optimized time only comms = 0.175498
+MPI_Bcast_optimized time with comms = 0.711114
+MPI_Reduce_default time = 1.926590
+MPI_Reduce_optimized time optimized without comms = 5.983209
+MPI_Reduce_optimized time only comms = 1.410384
+MPI_Reduce_optimized time with comms = 7.393593
+MPI_Gather_default time = 0.401007
+MPI_Gather_optimized time optimized without comms = 0.782475
+MPI_Gather_optimized time only comms = 5.074901
+MPI_Gather_optimized time with comms= 5.857377
+MPI_Alltoallv_default time = 0.424771
+MPI_Alltoallv_optimized time without comms = 0.865624
+MPI_Alltoallv_optimized time only comms = 0.259560
+MPI_Alltoallv_optimized time with comms = 1.125184
+
+E = 1, P = 4, ppn = 8, D = 16
+MPI_Bcast_default time = 0.388774
+MPI_Bcast_optimized time optimized without comms = 0.550508
+MPI_Bcast_optimized time only comms = 2.565877
+MPI_Bcast_optimized time with comms = 3.116385
+MPI_Reduce_default time = 0.402508
+MPI_Reduce_optimized time optimized without comms = 0.349465
+MPI_Reduce_optimized time only comms = 1.230337
+MPI_Reduce_optimized time with comms = 1.579802
+MPI_Gather_default time = 0.158121
+MPI_Gather_optimized time optimized without comms = 0.213904
+MPI_Gather_optimized time only comms = 0.991893
+MPI_Gather_optimized time with comms= 1.205797
+MPI_Alltoallv_default time = 0.208025
+MPI_Alltoallv_optimized time without comms = 0.183101
+MPI_Alltoallv_optimized time only comms = 0.604754
+MPI_Alltoallv_optimized time with comms = 0.787855
+
+E = 1, P = 4, ppn = 8, D = 256
+MPI_Bcast_default time = 0.582427
+MPI_Bcast_optimized time optimized without comms = 0.649566
+MPI_Bcast_optimized time only comms = 0.975765
+MPI_Bcast_optimized time with comms = 1.625331
+MPI_Reduce_default time = 0.692090
+MPI_Reduce_optimized time optimized without comms = 0.611724
+MPI_Reduce_optimized time only comms = 1.456896
+MPI_Reduce_optimized time with comms = 2.068620
+MPI_Gather_default time = 0.644218
+MPI_Gather_optimized time optimized without comms = 0.917603
+MPI_Gather_optimized time only comms = 1.514001
+MPI_Gather_optimized time with comms= 2.431605
+MPI_Alltoallv_default time = 0.463223
+MPI_Alltoallv_optimized time without comms = 0.873351
+MPI_Alltoallv_optimized time only comms = 0.833457
+MPI_Alltoallv_optimized time with comms = 1.706808
+
+E = 1, P = 4, ppn = 8, D = 2048
+MPI_Bcast_default time = 1.828015
+MPI_Bcast_optimized time optimized without comms = 1.464919
+MPI_Bcast_optimized time only comms = 0.680192
+MPI_Bcast_optimized time with comms = 2.145111
+MPI_Reduce_default time = 1.232593
+MPI_Reduce_optimized time optimized without comms = 1.198075
+MPI_Reduce_optimized time only comms = 1.415083
+MPI_Reduce_optimized time with comms = 2.613158
+MPI_Gather_default time = 2.505761
+MPI_Gather_optimized time optimized without comms = 2.669955
+MPI_Gather_optimized time only comms = 4.237417
+MPI_Gather_optimized time with comms= 6.907372
+MPI_Alltoallv_default time = 0.688942
+MPI_Alltoallv_optimized time without comms = 1.960979
+MPI_Alltoallv_optimized time only comms = 1.731704
+MPI_Alltoallv_optimized time with comms = 3.692682
+
+E = 1, P = 16, ppn = 1, D = 16
+MPI_Bcast_default time = 0.062357
+MPI_Bcast_optimized time optimized without comms = 0.073138
+MPI_Bcast_optimized time only comms = 0.206865
+MPI_Bcast_optimized time with comms = 0.280003
+MPI_Reduce_default time = 0.055898
+MPI_Reduce_optimized time optimized without comms = 0.036358
+MPI_Reduce_optimized time only comms = 0.167656
+MPI_Reduce_optimized time with comms = 0.204015
+MPI_Gather_default time = 0.006133
+MPI_Gather_optimized time optimized without comms = 0.033591
+MPI_Gather_optimized time only comms = 0.140308
+MPI_Gather_optimized time with comms= 0.173899
+MPI_Alltoallv_default time = 0.062111
+MPI_Alltoallv_optimized time without comms = 0.039966
+MPI_Alltoallv_optimized time only comms = 0.154158
+MPI_Alltoallv_optimized time with comms = 0.194124
+
+E = 1, P = 16, ppn = 1, D = 256
+MPI_Bcast_default time = 0.094388
+MPI_Bcast_optimized time optimized without comms = 0.111808
+MPI_Bcast_optimized time only comms = 0.149059
+MPI_Bcast_optimized time with comms = 0.260867
+MPI_Reduce_default time = 0.098319
+MPI_Reduce_optimized time optimized without comms = 0.076422
+MPI_Reduce_optimized time only comms = 0.174348
+MPI_Reduce_optimized time with comms = 0.250770
+MPI_Gather_default time = 0.133334
+MPI_Gather_optimized time optimized without comms = 0.177298
+MPI_Gather_optimized time only comms = 0.276052
+MPI_Gather_optimized time with comms= 0.453350
+MPI_Alltoallv_default time = 0.101381
+MPI_Alltoallv_optimized time without comms = 0.164004
+MPI_Alltoallv_optimized time only comms = 0.178704
+MPI_Alltoallv_optimized time with comms = 0.342708
+
+E = 1, P = 16, ppn = 1, D = 2048
+MPI_Bcast_default time = 0.433666
+MPI_Bcast_optimized time optimized without comms = 0.396524
+MPI_Bcast_optimized time only comms = 0.245432
+MPI_Bcast_optimized time with comms = 0.641956
+MPI_Reduce_default time = 0.574566
+MPI_Reduce_optimized time optimized without comms = 0.383901
+MPI_Reduce_optimized time only comms = 0.326454
+MPI_Reduce_optimized time with comms = 0.710355
+MPI_Gather_default time = 0.862567
+MPI_Gather_optimized time optimized without comms = 1.174964
+MPI_Gather_optimized time only comms = 1.163053
+MPI_Gather_optimized time with comms= 2.338017
+MPI_Alltoallv_default time = 0.459807
+MPI_Alltoallv_optimized time without comms = 0.768329
+MPI_Alltoallv_optimized time only comms = 0.371970
+MPI_Alltoallv_optimized time with comms = 1.140299
+
+E = 1, P = 16, ppn = 8, D = 16
+MPI_Bcast_default time = 0.245597
+MPI_Bcast_optimized time optimized without comms = 0.242420
+MPI_Bcast_optimized time only comms = 0.631722
+MPI_Bcast_optimized time with comms = 0.874141
+MPI_Reduce_default time = 0.269531
+MPI_Reduce_optimized time optimized without comms = 0.247141
+MPI_Reduce_optimized time only comms = 0.701188
+MPI_Reduce_optimized time with comms = 0.948329
+MPI_Gather_default time = 0.139912
+MPI_Gather_optimized time optimized without comms = 0.208354
+MPI_Gather_optimized time only comms = 0.840718
+MPI_Gather_optimized time with comms= 1.049072
+MPI_Alltoallv_default time = 0.629318
+MPI_Alltoallv_optimized time without comms = 0.318174
+MPI_Alltoallv_optimized time only comms = 0.724712
+MPI_Alltoallv_optimized time with comms = 1.042886
+
+E = 1, P = 16, ppn = 8, D = 256
+MPI_Bcast_default time = 0.389327
+MPI_Bcast_optimized time optimized without comms = 0.432738
+MPI_Bcast_optimized time only comms = 0.733954
+MPI_Bcast_optimized time with comms = 1.166691
+MPI_Reduce_default time = 0.487918
+MPI_Reduce_optimized time optimized without comms = 0.391119
+MPI_Reduce_optimized time only comms = 0.824638
+MPI_Reduce_optimized time with comms = 1.215757
+MPI_Gather_default time = 1.320360
+MPI_Gather_optimized time optimized without comms = 2.124748
+MPI_Gather_optimized time only comms = 2.847599
+MPI_Gather_optimized time with comms= 4.972346
+MPI_Alltoallv_default time = 0.615645
+MPI_Alltoallv_optimized time without comms = 0.946717
+MPI_Alltoallv_optimized time only comms = 1.144816
+MPI_Alltoallv_optimized time with comms = 2.091533
+
+E = 1, P = 16, ppn = 8, D = 2048
+MPI_Bcast_default time = 1.257978
+MPI_Bcast_optimized time optimized without comms = 1.164115
+MPI_Bcast_optimized time only comms = 1.019946
+MPI_Bcast_optimized time with comms = 2.184060
+MPI_Reduce_default time = 1.239907
+MPI_Reduce_optimized time optimized without comms = 1.128277
+MPI_Reduce_optimized time only comms = 1.579676
+MPI_Reduce_optimized time with comms = 2.707954
+MPI_Gather_default time = 7.778383
+MPI_Gather_optimized time optimized without comms = 13.128702
+MPI_Gather_optimized time only comms = 14.161040
+MPI_Gather_optimized time with comms= 27.289742
+MPI_Alltoallv_default time = 6.619908
+MPI_Alltoallv_optimized time without comms = 8.952593
+MPI_Alltoallv_optimized time only comms = 5.742169
+MPI_Alltoallv_optimized time with comms = 14.694762
+
+E = 2, P = 4, ppn = 1, D = 16
+MPI_Bcast_default time = 0.047688
+MPI_Bcast_optimized time optimized without comms = 0.042044
+MPI_Bcast_optimized time only comms = 0.131762
+MPI_Bcast_optimized time with comms = 0.173805
+MPI_Reduce_default time = 0.038259
+MPI_Reduce_optimized time optimized without comms = 0.045208
+MPI_Reduce_optimized time only comms = 0.143236
+MPI_Reduce_optimized time with comms = 0.188444
+MPI_Gather_default time = 0.001252
+MPI_Gather_optimized time optimized without comms = 0.011691
+MPI_Gather_optimized time only comms = 0.108913
+MPI_Gather_optimized time with comms= 0.120604
+MPI_Alltoallv_default time = 0.017481
+MPI_Alltoallv_optimized time without comms = 0.016012
+MPI_Alltoallv_optimized time only comms = 0.026930
+MPI_Alltoallv_optimized time with comms = 0.042941
+
+E = 2, P = 4, ppn = 1, D = 256
+MPI_Bcast_default time = 0.116863
+MPI_Bcast_optimized time optimized without comms = 0.131097
+MPI_Bcast_optimized time only comms = 0.088104
+MPI_Bcast_optimized time with comms = 0.219200
+MPI_Reduce_default time = 0.139309
+MPI_Reduce_optimized time optimized without comms = 0.166784
+MPI_Reduce_optimized time only comms = 0.216220
+MPI_Reduce_optimized time with comms = 0.383003
+MPI_Gather_default time = 0.067564
+MPI_Gather_optimized time optimized without comms = 0.111010
+MPI_Gather_optimized time only comms = 0.130730
+MPI_Gather_optimized time with comms= 0.241740
+MPI_Alltoallv_default time = 0.013914
+MPI_Alltoallv_optimized time without comms = 0.056265
+MPI_Alltoallv_optimized time only comms = 0.048263
+MPI_Alltoallv_optimized time with comms = 0.104528
+
+E = 2, P = 4, ppn = 1, D = 2048
+MPI_Bcast_default time = 0.351887
+MPI_Bcast_optimized time optimized without comms = 0.390220
+MPI_Bcast_optimized time only comms = 0.158688
+MPI_Bcast_optimized time with comms = 0.548909
+MPI_Reduce_default time = 0.521942
+MPI_Reduce_optimized time optimized without comms = 0.458699
+MPI_Reduce_optimized time only comms = 0.313240
+MPI_Reduce_optimized time with comms = 0.771939
+MPI_Gather_default time = 0.615760
+MPI_Gather_optimized time optimized without comms = 0.900817
+MPI_Gather_optimized time only comms = 0.459037
+MPI_Gather_optimized time with comms= 1.359854
+MPI_Alltoallv_default time = 0.120892
+MPI_Alltoallv_optimized time without comms = 0.373463
+MPI_Alltoallv_optimized time only comms = 0.296626
+MPI_Alltoallv_optimized time with comms = 0.670089
+
+E = 2, P = 4, ppn = 8, D = 16
+MPI_Bcast_default time = 0.180132
+MPI_Bcast_optimized time optimized without comms = 0.149385
+MPI_Bcast_optimized time only comms = 0.494995
+MPI_Bcast_optimized time with comms = 0.644380
+MPI_Reduce_default time = 0.222534
+MPI_Reduce_optimized time optimized without comms = 0.168408
+MPI_Reduce_optimized time only comms = 0.573216
+MPI_Reduce_optimized time with comms = 0.741625
+MPI_Gather_default time = 0.098835
+MPI_Gather_optimized time optimized without comms = 0.136293
+MPI_Gather_optimized time only comms = 0.677520
+MPI_Gather_optimized time with comms= 0.813812
+MPI_Alltoallv_default time = 0.211205
+MPI_Alltoallv_optimized time without comms = 0.130910
+MPI_Alltoallv_optimized time only comms = 0.554676
+MPI_Alltoallv_optimized time with comms = 0.685586
+
+E = 2, P = 4, ppn = 8, D = 256
+MPI_Bcast_default time = 0.318668
+MPI_Bcast_optimized time optimized without comms = 0.337615
+MPI_Bcast_optimized time only comms = 0.575610
+MPI_Bcast_optimized time with comms = 0.913225
+MPI_Reduce_default time = 0.392452
+MPI_Reduce_optimized time optimized without comms = 0.333135
+MPI_Reduce_optimized time only comms = 0.683696
+MPI_Reduce_optimized time with comms = 1.016831
+MPI_Gather_default time = 0.325567
+MPI_Gather_optimized time optimized without comms = 0.372748
+MPI_Gather_optimized time only comms = 0.989861
+MPI_Gather_optimized time with comms= 1.362609
+MPI_Alltoallv_default time = 0.192304
+MPI_Alltoallv_optimized time without comms = 0.331259
+MPI_Alltoallv_optimized time only comms = 0.680659
+MPI_Alltoallv_optimized time with comms = 1.011918
+
+E = 2, P = 4, ppn = 8, D = 2048
+MPI_Bcast_default time = 1.395999
+MPI_Bcast_optimized time optimized without comms = 0.820152
+MPI_Bcast_optimized time only comms = 0.560541
+MPI_Bcast_optimized time with comms = 1.380693
+MPI_Reduce_default time = 1.009365
+MPI_Reduce_optimized time optimized without comms = 0.854667
+MPI_Reduce_optimized time only comms = 1.046205
+MPI_Reduce_optimized time with comms = 1.900873
+MPI_Gather_default time = 1.295626
+MPI_Gather_optimized time optimized without comms = 1.484845
+MPI_Gather_optimized time only comms = 2.516876
+MPI_Gather_optimized time with comms= 4.001722
+MPI_Alltoallv_default time = 0.629229
+MPI_Alltoallv_optimized time without comms = 1.160625
+MPI_Alltoallv_optimized time only comms = 0.974523
+MPI_Alltoallv_optimized time with comms = 2.135148
+
+E = 2, P = 16, ppn = 1, D = 16
+MPI_Bcast_default time = 0.026693
+MPI_Bcast_optimized time optimized without comms = 0.030658
+MPI_Bcast_optimized time only comms = 0.109081
+MPI_Bcast_optimized time with comms = 0.139740
+MPI_Reduce_default time = 0.030908
+MPI_Reduce_optimized time optimized without comms = 0.028865
+MPI_Reduce_optimized time only comms = 0.097884
+MPI_Reduce_optimized time with comms = 0.126749
+MPI_Gather_default time = 0.008472
+MPI_Gather_optimized time optimized without comms = 0.043576
+MPI_Gather_optimized time only comms = 0.117247
+MPI_Gather_optimized time with comms= 0.160824
+MPI_Alltoallv_default time = 0.017522
+MPI_Alltoallv_optimized time without comms = 0.007289
+MPI_Alltoallv_optimized time only comms = 0.030470
+MPI_Alltoallv_optimized time with comms = 0.037759
+
+E = 2, P = 16, ppn = 1, D = 256
+MPI_Bcast_default time = 0.061246
+MPI_Bcast_optimized time optimized without comms = 0.062319
+MPI_Bcast_optimized time only comms = 0.087011
+MPI_Bcast_optimized time with comms = 0.149330
+MPI_Reduce_default time = 0.045120
+MPI_Reduce_optimized time optimized without comms = 0.054092
+MPI_Reduce_optimized time only comms = 0.075254
+MPI_Reduce_optimized time with comms = 0.129347
+MPI_Gather_default time = 0.054636
+MPI_Gather_optimized time optimized without comms = 0.104825
+MPI_Gather_optimized time only comms = 0.172536
+MPI_Gather_optimized time with comms= 0.277361
+MPI_Alltoallv_default time = 0.195146
+MPI_Alltoallv_optimized time without comms = 0.286121
+MPI_Alltoallv_optimized time only comms = 0.064044
+MPI_Alltoallv_optimized time with comms = 0.350165
+
+E = 2, P = 16, ppn = 1, D = 2048
+MPI_Bcast_default time = 0.281267
+MPI_Bcast_optimized time optimized without comms = 0.245957
+MPI_Bcast_optimized time only comms = 0.211357
+MPI_Bcast_optimized time with comms = 0.457315
+MPI_Reduce_default time = 0.290542
+MPI_Reduce_optimized time optimized without comms = 0.201095
+MPI_Reduce_optimized time only comms = 0.193184
+MPI_Reduce_optimized time with comms = 0.394279
+MPI_Gather_default time = 0.520981
+MPI_Gather_optimized time optimized without comms = 0.959369
+MPI_Gather_optimized time only comms = 0.896662
+MPI_Gather_optimized time with comms= 1.856032
+MPI_Alltoallv_default time = 0.458724
+MPI_Alltoallv_optimized time without comms = 0.938329
+MPI_Alltoallv_optimized time only comms = 0.434875
+MPI_Alltoallv_optimized time with comms = 1.373204
+
+E = 2, P = 16, ppn = 8, D = 16
+MPI_Bcast_default time = 0.200062
+MPI_Bcast_optimized time optimized without comms = 0.175983
+MPI_Bcast_optimized time only comms = 0.604284
+MPI_Bcast_optimized time with comms = 0.780267
+MPI_Reduce_default time = 0.274508
+MPI_Reduce_optimized time optimized without comms = 0.191104
+MPI_Reduce_optimized time only comms = 0.955868
+MPI_Reduce_optimized time with comms = 1.146972
+MPI_Gather_default time = 0.147818
+MPI_Gather_optimized time optimized without comms = 0.228502
+MPI_Gather_optimized time only comms = 0.725504
+MPI_Gather_optimized time with comms= 0.954006
+MPI_Alltoallv_default time = 0.334995
+MPI_Alltoallv_optimized time without comms = 0.201166
+MPI_Alltoallv_optimized time only comms = 0.613527
+MPI_Alltoallv_optimized time with comms = 0.814693
+
+E = 2, P = 16, ppn = 8, D = 256
+MPI_Bcast_default time = 0.368889
+MPI_Bcast_optimized time optimized without comms = 0.410357
+MPI_Bcast_optimized time only comms = 0.634488
+MPI_Bcast_optimized time with comms = 1.044845
+MPI_Reduce_default time = 0.444524
+MPI_Reduce_optimized time optimized without comms = 0.364346
+MPI_Reduce_optimized time only comms = 0.682715
+MPI_Reduce_optimized time with comms = 1.047061
+MPI_Gather_default time = 1.145888
+MPI_Gather_optimized time optimized without comms = 1.785029
+MPI_Gather_optimized time only comms = 2.327101
+MPI_Gather_optimized time with comms= 4.112130
+MPI_Alltoallv_default time = 0.626515
+MPI_Alltoallv_optimized time without comms = 0.801002
+MPI_Alltoallv_optimized time only comms = 1.067370
+MPI_Alltoallv_optimized time with comms = 1.868372
+
+E = 2, P = 16, ppn = 8, D = 2048
+MPI_Bcast_default time = 1.000619
+MPI_Bcast_optimized time optimized without comms = 0.972279
+MPI_Bcast_optimized time only comms = 0.916165
+MPI_Bcast_optimized time with comms = 1.888444
+MPI_Reduce_default time = 1.161416
+MPI_Reduce_optimized time optimized without comms = 1.030761
+MPI_Reduce_optimized time only comms = 1.244291
+MPI_Reduce_optimized time with comms = 2.275052
+MPI_Gather_default time = 9.271563
+MPI_Gather_optimized time optimized without comms = 14.127242
+MPI_Gather_optimized time only comms = 15.976849
+MPI_Gather_optimized time with comms= 30.104091
+MPI_Alltoallv_default time = 9.105328
+MPI_Alltoallv_optimized time without comms = 5.776564
+MPI_Alltoallv_optimized time only comms = 4.466611
+MPI_Alltoallv_optimized time with comms = 10.243175
+
+E = 3, P = 4, ppn = 1, D = 16
+MPI_Bcast_default time = 0.010833
+MPI_Bcast_optimized time optimized without comms = 0.013889
+MPI_Bcast_optimized time only comms = 0.030210
+MPI_Bcast_optimized time with comms = 0.044099
+MPI_Reduce_default time = 0.003305
+MPI_Reduce_optimized time optimized without comms = 0.003702
+MPI_Reduce_optimized time only comms = 0.023066
+MPI_Reduce_optimized time with comms = 0.026768
+MPI_Gather_default time = 0.000839
+MPI_Gather_optimized time optimized without comms = 0.000588
+MPI_Gather_optimized time only comms = 0.015036
+MPI_Gather_optimized time with comms= 0.015625
+MPI_Alltoallv_default time = 0.005158
+MPI_Alltoallv_optimized time without comms = 0.005479
+MPI_Alltoallv_optimized time only comms = 0.009144
+MPI_Alltoallv_optimized time with comms = 0.014622
+
+E = 3, P = 4, ppn = 1, D = 256
+MPI_Bcast_default time = 0.023350
+MPI_Bcast_optimized time optimized without comms = 0.037771
+MPI_Bcast_optimized time only comms = 0.055072
+MPI_Bcast_optimized time with comms = 0.092843
+MPI_Reduce_default time = 0.086094
+MPI_Reduce_optimized time optimized without comms = 0.048054
+MPI_Reduce_optimized time only comms = 0.056494
+MPI_Reduce_optimized time with comms = 0.104548
+MPI_Gather_default time = 0.021211
+MPI_Gather_optimized time optimized without comms = 0.032544
+MPI_Gather_optimized time only comms = 0.078825
+MPI_Gather_optimized time with comms= 0.111369
+MPI_Alltoallv_default time = 0.094531
+MPI_Alltoallv_optimized time without comms = 0.127805
+MPI_Alltoallv_optimized time only comms = 0.037508
+MPI_Alltoallv_optimized time with comms = 0.165313
+
+E = 3, P = 4, ppn = 1, D = 2048
+MPI_Bcast_default time = 0.078125
+MPI_Bcast_optimized time optimized without comms = 0.090241
+MPI_Bcast_optimized time only comms = 0.053940
+MPI_Bcast_optimized time with comms = 0.144181
+MPI_Reduce_default time = 0.193350
+MPI_Reduce_optimized time optimized without comms = 0.152995
+MPI_Reduce_optimized time only comms = 0.112159
+MPI_Reduce_optimized time with comms = 0.265154
+MPI_Gather_default time = 0.072619
+MPI_Gather_optimized time optimized without comms = 0.087340
+MPI_Gather_optimized time only comms = 0.097606
+MPI_Gather_optimized time with comms= 0.184946
+MPI_Alltoallv_default time = 0.040046
+MPI_Alltoallv_optimized time without comms = 0.099909
+MPI_Alltoallv_optimized time only comms = 0.045129
+MPI_Alltoallv_optimized time with comms = 0.145038
+
+E = 3, P = 4, ppn = 8, D = 16
+MPI_Bcast_default time = 0.168807
+MPI_Bcast_optimized time optimized without comms = 0.180785
+MPI_Bcast_optimized time only comms = 0.572908
+MPI_Bcast_optimized time with comms = 0.753693
+MPI_Reduce_default time = 0.217607
+MPI_Reduce_optimized time optimized without comms = 0.200119
+MPI_Reduce_optimized time only comms = 0.619128
+MPI_Reduce_optimized time with comms = 0.819247
+MPI_Gather_default time = 0.098665
+MPI_Gather_optimized time optimized without comms = 0.101700
+MPI_Gather_optimized time only comms = 0.540648
+MPI_Gather_optimized time with comms= 0.642348
+MPI_Alltoallv_default time = 0.212788
+MPI_Alltoallv_optimized time without comms = 0.202611
+MPI_Alltoallv_optimized time only comms = 0.586359
+MPI_Alltoallv_optimized time with comms = 0.788971
+
+E = 3, P = 4, ppn = 8, D = 256
+MPI_Bcast_default time = 0.347223
+MPI_Bcast_optimized time optimized without comms = 0.370286
+MPI_Bcast_optimized time only comms = 0.604151
+MPI_Bcast_optimized time with comms = 0.974437
+MPI_Reduce_default time = 0.514466
+MPI_Reduce_optimized time optimized without comms = 0.477939
+MPI_Reduce_optimized time only comms = 0.818224
+MPI_Reduce_optimized time with comms = 1.296163
+MPI_Gather_default time = 0.669046
+MPI_Gather_optimized time optimized without comms = 0.891515
+MPI_Gather_optimized time only comms = 1.608472
+MPI_Gather_optimized time with comms= 2.499987
+MPI_Alltoallv_default time = 0.296691
+MPI_Alltoallv_optimized time without comms = 0.694346
+MPI_Alltoallv_optimized time only comms = 0.953671
+MPI_Alltoallv_optimized time with comms = 1.648017
+
+E = 3, P = 4, ppn = 8, D = 2048
+MPI_Bcast_default time = 1.780028
+MPI_Bcast_optimized time optimized without comms = 0.990514
+MPI_Bcast_optimized time only comms = 0.710722
+MPI_Bcast_optimized time with comms = 1.701236
+MPI_Reduce_default time = 1.478044
+MPI_Reduce_optimized time optimized without comms = 1.337814
+MPI_Reduce_optimized time only comms = 1.624099
+MPI_Reduce_optimized time with comms = 2.961914
+MPI_Gather_default time = 3.941032
+MPI_Gather_optimized time optimized without comms = 6.211948
+MPI_Gather_optimized time only comms = 8.196814
+MPI_Gather_optimized time with comms= 14.408763
+MPI_Alltoallv_default time = 0.753152
+MPI_Alltoallv_optimized time without comms = 2.352861
+MPI_Alltoallv_optimized time only comms = 2.385311
+MPI_Alltoallv_optimized time with comms = 4.738172
+
+E = 3, P = 16, ppn = 1, D = 16
+MPI_Bcast_default time = 0.086595
+MPI_Bcast_optimized time optimized without comms = 0.080544
+MPI_Bcast_optimized time only comms = 0.198969
+MPI_Bcast_optimized time with comms = 0.279514
+MPI_Reduce_default time = 0.061046
+MPI_Reduce_optimized time optimized without comms = 0.071934
+MPI_Reduce_optimized time only comms = 0.191842
+MPI_Reduce_optimized time with comms = 0.263776
+MPI_Gather_default time = 0.016198
+MPI_Gather_optimized time optimized without comms = 0.038023
+MPI_Gather_optimized time only comms = 0.201636
+MPI_Gather_optimized time with comms= 0.239659
+MPI_Alltoallv_default time = 0.067081
+MPI_Alltoallv_optimized time without comms = 0.043897
+MPI_Alltoallv_optimized time only comms = 0.183775
+MPI_Alltoallv_optimized time with comms = 0.227673
+
+E = 3, P = 16, ppn = 1, D = 256
+MPI_Bcast_default time = 0.205125
+MPI_Bcast_optimized time optimized without comms = 0.160228
+MPI_Bcast_optimized time only comms = 0.287713
+MPI_Bcast_optimized time with comms = 0.447941
+MPI_Reduce_default time = 0.118291
+MPI_Reduce_optimized time optimized without comms = 0.094365
+MPI_Reduce_optimized time only comms = 0.228834
+MPI_Reduce_optimized time with comms = 0.323199
+MPI_Gather_default time = 0.271745
+MPI_Gather_optimized time optimized without comms = 0.360779
+MPI_Gather_optimized time only comms = 0.514463
+MPI_Gather_optimized time with comms= 0.875242
+MPI_Alltoallv_default time = 0.163045
+MPI_Alltoallv_optimized time without comms = 0.308080
+MPI_Alltoallv_optimized time only comms = 0.388954
+MPI_Alltoallv_optimized time with comms = 0.697034
+
+E = 3, P = 16, ppn = 1, D = 2048
+MPI_Bcast_default time = 2.384826
+MPI_Bcast_optimized time optimized without comms = 0.965505
+MPI_Bcast_optimized time only comms = 0.513297
+MPI_Bcast_optimized time with comms = 1.478802
+MPI_Reduce_default time = 1.054944
+MPI_Reduce_optimized time optimized without comms = 0.676849
+MPI_Reduce_optimized time only comms = 0.479396
+MPI_Reduce_optimized time with comms = 1.156245
+MPI_Gather_default time = 1.219047
+MPI_Gather_optimized time optimized without comms = 1.568995
+MPI_Gather_optimized time only comms = 1.558558
+MPI_Gather_optimized time with comms= 3.127553
+MPI_Alltoallv_default time = 0.436208
+MPI_Alltoallv_optimized time without comms = 0.728895
+MPI_Alltoallv_optimized time only comms = 0.494813
+MPI_Alltoallv_optimized time with comms = 1.223709
+
+E = 3, P = 16, ppn = 8, D = 16
+MPI_Bcast_default time = 0.200861
+MPI_Bcast_optimized time optimized without comms = 0.223979
+MPI_Bcast_optimized time only comms = 0.594022
+MPI_Bcast_optimized time with comms = 0.818002
+MPI_Reduce_default time = 0.197316
+MPI_Reduce_optimized time optimized without comms = 0.183195
+MPI_Reduce_optimized time only comms = 0.614972
+MPI_Reduce_optimized time with comms = 0.798166
+MPI_Gather_default time = 0.119285
+MPI_Gather_optimized time optimized without comms = 0.151107
+MPI_Gather_optimized time only comms = 0.745511
+MPI_Gather_optimized time with comms= 0.896618
+MPI_Alltoallv_default time = 0.318732
+MPI_Alltoallv_optimized time without comms = 0.228385
+MPI_Alltoallv_optimized time only comms = 0.626656
+MPI_Alltoallv_optimized time with comms = 0.855041
+
+E = 3, P = 16, ppn = 8, D = 256
+MPI_Bcast_default time = 0.377639
+MPI_Bcast_optimized time optimized without comms = 0.457553
+MPI_Bcast_optimized time only comms = 0.769861
+MPI_Bcast_optimized time with comms = 1.227414
+MPI_Reduce_default time = 0.435369
+MPI_Reduce_optimized time optimized without comms = 0.428754
+MPI_Reduce_optimized time only comms = 0.846681
+MPI_Reduce_optimized time with comms = 1.275434
+MPI_Gather_default time = 0.940331
+MPI_Gather_optimized time optimized without comms = 1.185497
+MPI_Gather_optimized time only comms = 2.313484
+MPI_Gather_optimized time with comms= 3.498981
+MPI_Alltoallv_default time = 1.219118
+MPI_Alltoallv_optimized time without comms = 1.904840
+MPI_Alltoallv_optimized time only comms = 2.036198
+MPI_Alltoallv_optimized time with comms = 3.941039
+
+E = 3, P = 16, ppn = 8, D = 2048
+MPI_Bcast_default time = 2.652738
+MPI_Bcast_optimized time optimized without comms = 1.659360
+MPI_Bcast_optimized time only comms = 1.501317
+MPI_Bcast_optimized time with comms = 3.160677
+MPI_Reduce_default time = 1.730333
+MPI_Reduce_optimized time optimized without comms = 2.305195
+MPI_Reduce_optimized time only comms = 2.929142
+MPI_Reduce_optimized time with comms = 5.234337
+MPI_Gather_default time = 9.418532
+MPI_Gather_optimized time optimized without comms = 10.859285
+MPI_Gather_optimized time only comms = 14.148209
+MPI_Gather_optimized time with comms= 25.007494
+MPI_Alltoallv_default time = 3.541169
+MPI_Alltoallv_optimized time without comms = 4.503326
+MPI_Alltoallv_optimized time only comms = 4.044729
+MPI_Alltoallv_optimized time with comms = 8.548055
+
+E = 4, P = 4, ppn = 1, D = 16
+MPI_Bcast_default time = 0.058224
+MPI_Bcast_optimized time optimized without comms = 0.043840
+MPI_Bcast_optimized time only comms = 0.127951
+MPI_Bcast_optimized time with comms = 0.171791
+MPI_Reduce_default time = 0.041129
+MPI_Reduce_optimized time optimized without comms = 0.051425
+MPI_Reduce_optimized time only comms = 0.158266
+MPI_Reduce_optimized time with comms = 0.209691
+MPI_Gather_default time = 0.003033
+MPI_Gather_optimized time optimized without comms = 0.014527
+MPI_Gather_optimized time only comms = 0.153823
+MPI_Gather_optimized time with comms= 0.168350
+MPI_Alltoallv_default time = 0.019247
+MPI_Alltoallv_optimized time without comms = 0.029446
+MPI_Alltoallv_optimized time only comms = 0.033020
+MPI_Alltoallv_optimized time with comms = 0.062467
+
+E = 4, P = 4, ppn = 1, D = 256
+MPI_Bcast_default time = 0.070569
+MPI_Bcast_optimized time optimized without comms = 0.079796
+MPI_Bcast_optimized time only comms = 0.089487
+MPI_Bcast_optimized time with comms = 0.169282
+MPI_Reduce_default time = 0.063047
+MPI_Reduce_optimized time optimized without comms = 0.162208
+MPI_Reduce_optimized time only comms = 0.167265
+MPI_Reduce_optimized time with comms = 0.329473
+MPI_Gather_default time = 0.080057
+MPI_Gather_optimized time optimized without comms = 0.113120
+MPI_Gather_optimized time only comms = 0.129070
+MPI_Gather_optimized time with comms= 0.242190
+MPI_Alltoallv_default time = 0.021980
+MPI_Alltoallv_optimized time without comms = 0.055414
+MPI_Alltoallv_optimized time only comms = 0.098843
+MPI_Alltoallv_optimized time with comms = 0.154257
+
+E = 4, P = 4, ppn = 1, D = 2048
+MPI_Bcast_default time = 0.366528
+MPI_Bcast_optimized time optimized without comms = 0.379403
+MPI_Bcast_optimized time only comms = 0.159850
+MPI_Bcast_optimized time with comms = 0.539253
+MPI_Reduce_default time = 0.463186
+MPI_Reduce_optimized time optimized without comms = 0.584548
+MPI_Reduce_optimized time only comms = 0.347396
+MPI_Reduce_optimized time with comms = 0.931944
+MPI_Gather_default time = 0.453374
+MPI_Gather_optimized time optimized without comms = 0.675890
+MPI_Gather_optimized time only comms = 0.538258
+MPI_Gather_optimized time with comms= 1.214148
+MPI_Alltoallv_default time = 0.078713
+MPI_Alltoallv_optimized time without comms = 0.337279
+MPI_Alltoallv_optimized time only comms = 0.137820
+MPI_Alltoallv_optimized time with comms = 0.475099
+
+E = 4, P = 4, ppn = 8, D = 16
+MPI_Bcast_default time = 0.209584
+MPI_Bcast_optimized time optimized without comms = 0.200775
+MPI_Bcast_optimized time only comms = 0.567119
+MPI_Bcast_optimized time with comms = 0.767894
+MPI_Reduce_default time = 0.214272
+MPI_Reduce_optimized time optimized without comms = 0.167528
+MPI_Reduce_optimized time only comms = 0.566713
+MPI_Reduce_optimized time with comms = 0.734241
+MPI_Gather_default time = 0.095801
+MPI_Gather_optimized time optimized without comms = 0.118982
+MPI_Gather_optimized time only comms = 0.648820
+MPI_Gather_optimized time with comms= 0.767802
+MPI_Alltoallv_default time = 0.246412
+MPI_Alltoallv_optimized time without comms = 0.153188
+MPI_Alltoallv_optimized time only comms = 0.648843
+MPI_Alltoallv_optimized time with comms = 0.802031
+
+E = 4, P = 4, ppn = 8, D = 256
+MPI_Bcast_default time = 0.448828
+MPI_Bcast_optimized time optimized without comms = 0.452599
+MPI_Bcast_optimized time only comms = 0.686173
+MPI_Bcast_optimized time with comms = 1.138773
+MPI_Reduce_default time = 0.629650
+MPI_Reduce_optimized time optimized without comms = 0.478396
+MPI_Reduce_optimized time only comms = 0.914852
+MPI_Reduce_optimized time with comms = 1.393248
+MPI_Gather_default time = 0.739614
+MPI_Gather_optimized time optimized without comms = 1.154731
+MPI_Gather_optimized time only comms = 1.852999
+MPI_Gather_optimized time with comms= 3.007730
+MPI_Alltoallv_default time = 0.240809
+MPI_Alltoallv_optimized time without comms = 0.557973
+MPI_Alltoallv_optimized time only comms = 0.911770
+MPI_Alltoallv_optimized time with comms = 1.469743
+
+E = 4, P = 4, ppn = 8, D = 2048
+MPI_Bcast_default time = 1.840808
+MPI_Bcast_optimized time optimized without comms = 0.947329
+MPI_Bcast_optimized time only comms = 0.682651
+MPI_Bcast_optimized time with comms = 1.629980
+MPI_Reduce_default time = 1.399231
+MPI_Reduce_optimized time optimized without comms = 1.097277
+MPI_Reduce_optimized time only comms = 1.209637
+MPI_Reduce_optimized time with comms = 2.306913
+MPI_Gather_default time = 2.859376
+MPI_Gather_optimized time optimized without comms = 3.966448
+MPI_Gather_optimized time only comms = 4.890705
+MPI_Gather_optimized time with comms= 8.857153
+MPI_Alltoallv_default time = 0.665726
+MPI_Alltoallv_optimized time without comms = 2.296191
+MPI_Alltoallv_optimized time only comms = 1.751824
+MPI_Alltoallv_optimized time with comms = 4.048016
+
+E = 4, P = 16, ppn = 1, D = 16
+MPI_Bcast_default time = 0.065172
+MPI_Bcast_optimized time optimized without comms = 0.064711
+MPI_Bcast_optimized time only comms = 0.178218
+MPI_Bcast_optimized time with comms = 0.242929
+MPI_Reduce_default time = 0.066012
+MPI_Reduce_optimized time optimized without comms = 0.044707
+MPI_Reduce_optimized time only comms = 0.172076
+MPI_Reduce_optimized time with comms = 0.216783
+MPI_Gather_default time = 0.008323
+MPI_Gather_optimized time optimized without comms = 0.045873
+MPI_Gather_optimized time only comms = 0.199822
+MPI_Gather_optimized time with comms= 0.245696
+MPI_Alltoallv_default time = 0.075100
+MPI_Alltoallv_optimized time without comms = 0.058411
+MPI_Alltoallv_optimized time only comms = 0.174578
+MPI_Alltoallv_optimized time with comms = 0.232988
+
+E = 4, P = 16, ppn = 1, D = 256
+MPI_Bcast_default time = 0.127228
+MPI_Bcast_optimized time optimized without comms = 0.148270
+MPI_Bcast_optimized time only comms = 0.210298
+MPI_Bcast_optimized time with comms = 0.358567
+MPI_Reduce_default time = 0.100667
+MPI_Reduce_optimized time optimized without comms = 0.079611
+MPI_Reduce_optimized time only comms = 0.197344
+MPI_Reduce_optimized time with comms = 0.276955
+MPI_Gather_default time = 0.193387
+MPI_Gather_optimized time optimized without comms = 0.290242
+MPI_Gather_optimized time only comms = 0.378103
+MPI_Gather_optimized time with comms= 0.668344
+MPI_Alltoallv_default time = 0.102822
+MPI_Alltoallv_optimized time without comms = 0.176097
+MPI_Alltoallv_optimized time only comms = 0.226278
+MPI_Alltoallv_optimized time with comms = 0.402375
+
+E = 4, P = 16, ppn = 1, D = 2048
+MPI_Bcast_default time = 0.464304
+MPI_Bcast_optimized time optimized without comms = 0.467611
+MPI_Bcast_optimized time only comms = 0.425082
+MPI_Bcast_optimized time with comms = 0.892694
+MPI_Reduce_default time = 0.492312
+MPI_Reduce_optimized time optimized without comms = 0.364768
+MPI_Reduce_optimized time only comms = 0.436739
+MPI_Reduce_optimized time with comms = 0.801507
+MPI_Gather_default time = 0.861941
+MPI_Gather_optimized time optimized without comms = 1.548209
+MPI_Gather_optimized time only comms = 1.470696
+MPI_Gather_optimized time with comms= 3.018905
+MPI_Alltoallv_default time = 0.366504
+MPI_Alltoallv_optimized time without comms = 0.918885
+MPI_Alltoallv_optimized time only comms = 0.591183
+MPI_Alltoallv_optimized time with comms = 1.510068
+
+E = 4, P = 16, ppn = 8, D = 16
+MPI_Bcast_default time = 0.288292
+MPI_Bcast_optimized time optimized without comms = 0.250394
+MPI_Bcast_optimized time only comms = 0.735474
+MPI_Bcast_optimized time with comms = 0.985868
+MPI_Reduce_default time = 0.259847
+MPI_Reduce_optimized time optimized without comms = 0.224999
+MPI_Reduce_optimized time only comms = 0.678335
+MPI_Reduce_optimized time with comms = 0.903334
+MPI_Gather_default time = 0.302213
+MPI_Gather_optimized time optimized without comms = 0.439061
+MPI_Gather_optimized time only comms = 1.255768
+MPI_Gather_optimized time with comms= 1.694829
+MPI_Alltoallv_default time = 0.662705
+MPI_Alltoallv_optimized time without comms = 0.485251
+MPI_Alltoallv_optimized time only comms = 0.919018
+MPI_Alltoallv_optimized time with comms = 1.404269
+
+E = 4, P = 16, ppn = 8, D = 256
+MPI_Bcast_default time = 0.433627
+MPI_Bcast_optimized time optimized without comms = 0.471085
+MPI_Bcast_optimized time only comms = 0.820957
+MPI_Bcast_optimized time with comms = 1.292042
+MPI_Reduce_default time = 0.572840
+MPI_Reduce_optimized time optimized without comms = 0.481416
+MPI_Reduce_optimized time only comms = 0.897542
+MPI_Reduce_optimized time with comms = 1.378959
+MPI_Gather_default time = 1.694062
+MPI_Gather_optimized time optimized without comms = 2.698552
+MPI_Gather_optimized time only comms = 3.426267
+MPI_Gather_optimized time with comms= 6.124819
+MPI_Alltoallv_default time = 0.893969
+MPI_Alltoallv_optimized time without comms = 0.971540
+MPI_Alltoallv_optimized time only comms = 1.370836
+MPI_Alltoallv_optimized time with comms = 2.342376
+
+E = 4, P = 16, ppn = 8, D = 2048
+MPI_Bcast_default time = 8.694473
+MPI_Bcast_optimized time optimized without comms = 8.075274
+MPI_Bcast_optimized time only comms = 1.255051
+MPI_Bcast_optimized time with comms = 9.330325
+MPI_Reduce_default time = 1.681115
+MPI_Reduce_optimized time optimized without comms = 1.737987
+MPI_Reduce_optimized time only comms = 2.187837
+MPI_Reduce_optimized time with comms = 3.925824
+MPI_Gather_default time = 8.122034
+MPI_Gather_optimized time optimized without comms = 15.063125
+MPI_Gather_optimized time only comms = 15.670880
+MPI_Gather_optimized time with comms= 30.734004
+MPI_Alltoallv_default time = 5.408996
+MPI_Alltoallv_optimized time without comms = 13.778883
+MPI_Alltoallv_optimized time only comms = 6.929492
+MPI_Alltoallv_optimized time with comms = 20.708375
+
+E = 5, P = 4, ppn = 1, D = 16
+MPI_Bcast_default time = 0.015242
+MPI_Bcast_optimized time optimized without comms = 0.034008
+MPI_Bcast_optimized time only comms = 0.073166
+MPI_Bcast_optimized time with comms = 0.107174
+MPI_Reduce_default time = 0.034674
+MPI_Reduce_optimized time optimized without comms = 0.070754
+MPI_Reduce_optimized time only comms = 0.115435
+MPI_Reduce_optimized time with comms = 0.186189
+MPI_Gather_default time = 0.020628
+MPI_Gather_optimized time optimized without comms = 0.014489
+MPI_Gather_optimized time only comms = 0.298599
+MPI_Gather_optimized time with comms= 0.313088
+MPI_Alltoallv_default time = 0.257181
+MPI_Alltoallv_optimized time without comms = 0.290769
+MPI_Alltoallv_optimized time only comms = 0.312778
+MPI_Alltoallv_optimized time with comms = 0.603547
+
+E = 5, P = 4, ppn = 1, D = 256
+MPI_Bcast_default time = 1.510803
+MPI_Bcast_optimized time optimized without comms = 1.360258
+MPI_Bcast_optimized time only comms = 0.223790
+MPI_Bcast_optimized time with comms = 1.584048
+MPI_Reduce_default time = 0.236500
+MPI_Reduce_optimized time optimized without comms = 0.236271
+MPI_Reduce_optimized time only comms = 0.398799
+MPI_Reduce_optimized time with comms = 0.635070
+MPI_Gather_default time = 0.180840
+MPI_Gather_optimized time optimized without comms = 0.265524
+MPI_Gather_optimized time only comms = 0.344360
+MPI_Gather_optimized time with comms= 0.609885
+MPI_Alltoallv_default time = 0.059743
+MPI_Alltoallv_optimized time without comms = 0.179616
+MPI_Alltoallv_optimized time only comms = 0.236079
+MPI_Alltoallv_optimized time with comms = 0.415695
+
+E = 5, P = 4, ppn = 1, D = 2048
+MPI_Bcast_default time = 0.644070
+MPI_Bcast_optimized time optimized without comms = 0.555489
+MPI_Bcast_optimized time only comms = 0.192718
+MPI_Bcast_optimized time with comms = 0.748207
+MPI_Reduce_default time = 0.425143
+MPI_Reduce_optimized time optimized without comms = 0.683645
+MPI_Reduce_optimized time only comms = 0.345438
+MPI_Reduce_optimized time with comms = 1.029083
+MPI_Gather_default time = 0.487932
+MPI_Gather_optimized time optimized without comms = 0.638730
+MPI_Gather_optimized time only comms = 0.626361
+MPI_Gather_optimized time with comms= 1.265091
+MPI_Alltoallv_default time = 0.100565
+MPI_Alltoallv_optimized time without comms = 0.375503
+MPI_Alltoallv_optimized time only comms = 0.319954
+MPI_Alltoallv_optimized time with comms = 0.695457
+
+E = 5, P = 4, ppn = 8, D = 16
+MPI_Bcast_default time = 0.177478
+MPI_Bcast_optimized time optimized without comms = 0.160790
+MPI_Bcast_optimized time only comms = 0.557464
+MPI_Bcast_optimized time with comms = 0.718254
+MPI_Reduce_default time = 0.256007
+MPI_Reduce_optimized time optimized without comms = 0.194586
+MPI_Reduce_optimized time only comms = 0.638330
+MPI_Reduce_optimized time with comms = 0.832917
+MPI_Gather_default time = 0.149692
+MPI_Gather_optimized time optimized without comms = 0.183140
+MPI_Gather_optimized time only comms = 0.896043
+MPI_Gather_optimized time with comms= 1.079183
+MPI_Alltoallv_default time = 0.404012
+MPI_Alltoallv_optimized time without comms = 0.340351
+MPI_Alltoallv_optimized time only comms = 0.738511
+MPI_Alltoallv_optimized time with comms = 1.078862
+
+E = 5, P = 4, ppn = 8, D = 256
+MPI_Bcast_default time = 0.515222
+MPI_Bcast_optimized time optimized without comms = 0.615815
+MPI_Bcast_optimized time only comms = 0.792064
+MPI_Bcast_optimized time with comms = 1.407879
+MPI_Reduce_default time = 0.699302
+MPI_Reduce_optimized time optimized without comms = 0.717053
+MPI_Reduce_optimized time only comms = 1.347847
+MPI_Reduce_optimized time with comms = 2.064900
+MPI_Gather_default time = 1.136873
+MPI_Gather_optimized time optimized without comms = 5.614123
+MPI_Gather_optimized time only comms = 4.683914
+MPI_Gather_optimized time with comms= 10.298037
+MPI_Alltoallv_default time = 0.700661
+MPI_Alltoallv_optimized time without comms = 4.639166
+MPI_Alltoallv_optimized time only comms = 4.257666
+MPI_Alltoallv_optimized time with comms = 8.896833
+
+E = 5, P = 4, ppn = 8, D = 2048
+MPI_Bcast_default time = 4.378418
+MPI_Bcast_optimized time optimized without comms = 2.273712
+MPI_Bcast_optimized time only comms = 1.493003
+MPI_Bcast_optimized time with comms = 3.766715
+MPI_Reduce_default time = 3.225981
+MPI_Reduce_optimized time optimized without comms = 5.851065
+MPI_Reduce_optimized time only comms = 5.915702
+MPI_Reduce_optimized time with comms = 11.766768
+MPI_Gather_default time = 6.856535
+MPI_Gather_optimized time optimized without comms = 18.301708
+MPI_Gather_optimized time only comms = 19.919354
+MPI_Gather_optimized time with comms= 38.221062
+MPI_Alltoallv_default time = 1.929422
+MPI_Alltoallv_optimized time without comms = 11.294705
+MPI_Alltoallv_optimized time only comms = 9.780359
+MPI_Alltoallv_optimized time with comms = 21.075064
+
+E = 5, P = 16, ppn = 1, D = 16
+MPI_Bcast_default time = 0.104053
+MPI_Bcast_optimized time optimized without comms = 0.104671
+MPI_Bcast_optimized time only comms = 0.259751
+MPI_Bcast_optimized time with comms = 0.364421
+MPI_Reduce_default time = 0.088548
+MPI_Reduce_optimized time optimized without comms = 0.091880
+MPI_Reduce_optimized time only comms = 0.290058
+MPI_Reduce_optimized time with comms = 0.381938
+MPI_Gather_default time = 0.022091
+MPI_Gather_optimized time optimized without comms = 0.072154
+MPI_Gather_optimized time only comms = 0.284683
+MPI_Gather_optimized time with comms= 0.356837
+MPI_Alltoallv_default time = 0.112960
+MPI_Alltoallv_optimized time without comms = 0.070191
+MPI_Alltoallv_optimized time only comms = 0.273150
+MPI_Alltoallv_optimized time with comms = 0.343340
+
+E = 5, P = 16, ppn = 1, D = 256
+MPI_Bcast_default time = 0.437464
+MPI_Bcast_optimized time optimized without comms = 0.235493
+MPI_Bcast_optimized time only comms = 0.312238
+MPI_Bcast_optimized time with comms = 0.547731
+MPI_Reduce_default time = 0.574508
+MPI_Reduce_optimized time optimized without comms = 0.176769
+MPI_Reduce_optimized time only comms = 0.411903
+MPI_Reduce_optimized time with comms = 0.588672
+MPI_Gather_default time = 0.592568
+MPI_Gather_optimized time optimized without comms = 1.251663
+MPI_Gather_optimized time only comms = 1.428317
+MPI_Gather_optimized time with comms= 2.679980
+MPI_Alltoallv_default time = 0.209331
+MPI_Alltoallv_optimized time without comms = 0.570226
+MPI_Alltoallv_optimized time only comms = 0.561681
+MPI_Alltoallv_optimized time with comms = 1.131907
+
+E = 5, P = 16, ppn = 1, D = 2048
+MPI_Bcast_default time = 4.602789
+MPI_Bcast_optimized time optimized without comms = 1.506742
+MPI_Bcast_optimized time only comms = 0.898587
+MPI_Bcast_optimized time with comms = 2.405329
+MPI_Reduce_default time = 1.047014
+MPI_Reduce_optimized time optimized without comms = 0.790537
+MPI_Reduce_optimized time only comms = 0.861332
+MPI_Reduce_optimized time with comms = 1.651869
+MPI_Gather_default time = 2.329171
+MPI_Gather_optimized time optimized without comms = 3.856543
+MPI_Gather_optimized time only comms = 3.565307
+MPI_Gather_optimized time with comms= 7.421850
+MPI_Alltoallv_default time = 0.525358
+MPI_Alltoallv_optimized time without comms = 1.578692
+MPI_Alltoallv_optimized time only comms = 1.338966
+MPI_Alltoallv_optimized time with comms = 2.917657
+
+E = 5, P = 16, ppn = 8, D = 16
+MPI_Bcast_default time = 0.409580
+MPI_Bcast_optimized time optimized without comms = 0.345594
+MPI_Bcast_optimized time only comms = 1.134691
+MPI_Bcast_optimized time with comms = 1.480286
+MPI_Reduce_default time = 0.423380
+MPI_Reduce_optimized time optimized without comms = 0.356776
+MPI_Reduce_optimized time only comms = 1.104743
+MPI_Reduce_optimized time with comms = 1.461518
+MPI_Gather_default time = 0.291395
+MPI_Gather_optimized time optimized without comms = 0.476057
+MPI_Gather_optimized time only comms = 1.562279
+MPI_Gather_optimized time with comms= 2.038336
+MPI_Alltoallv_default time = 1.051190
+MPI_Alltoallv_optimized time without comms = 0.358604
+MPI_Alltoallv_optimized time only comms = 1.160708
+MPI_Alltoallv_optimized time with comms = 1.519312
+
+E = 5, P = 16, ppn = 8, D = 256
+MPI_Bcast_default time = 0.669291
+MPI_Bcast_optimized time optimized without comms = 0.828768
+MPI_Bcast_optimized time only comms = 1.203576
+MPI_Bcast_optimized time with comms = 2.032344
+MPI_Reduce_default time = 0.690202
+MPI_Reduce_optimized time optimized without comms = 0.624623
+MPI_Reduce_optimized time only comms = 1.497342
+MPI_Reduce_optimized time with comms = 2.121966
+MPI_Gather_default time = 1.831492
+MPI_Gather_optimized time optimized without comms = 2.457710
+MPI_Gather_optimized time only comms = 3.559224
+MPI_Gather_optimized time with comms= 6.016935
+MPI_Alltoallv_default time = 1.068446
+MPI_Alltoallv_optimized time without comms = 1.074369
+MPI_Alltoallv_optimized time only comms = 1.773618
+MPI_Alltoallv_optimized time with comms = 2.847988
+
+E = 5, P = 16, ppn = 8, D = 2048
+MPI_Bcast_default time = 1.692808
+MPI_Bcast_optimized time optimized without comms = 1.627770
+MPI_Bcast_optimized time only comms = 1.452769
+MPI_Bcast_optimized time with comms = 3.080540
+MPI_Reduce_default time = 2.376697
+MPI_Reduce_optimized time optimized without comms = 2.206179
+MPI_Reduce_optimized time only comms = 2.450421
+MPI_Reduce_optimized time with comms = 4.656599
+MPI_Gather_default time = 10.358585
+MPI_Gather_optimized time optimized without comms = 14.893835
+MPI_Gather_optimized time only comms = 18.340002
+MPI_Gather_optimized time with comms= 33.233837
+MPI_Alltoallv_default time = 3.115917
+MPI_Alltoallv_optimized time without comms = 4.939715
+MPI_Alltoallv_optimized time only comms = 5.058023
+MPI_Alltoallv_optimized time with comms = 9.997738
+
+E = 6, P = 4, ppn = 1, D = 16
+MPI_Bcast_default time = 0.077939
+MPI_Bcast_optimized time optimized without comms = 0.071422
+MPI_Bcast_optimized time only comms = 0.189919
+MPI_Bcast_optimized time with comms = 0.261341
+MPI_Reduce_default time = 0.062369
+MPI_Reduce_optimized time optimized without comms = 0.043042
+MPI_Reduce_optimized time only comms = 0.193896
+MPI_Reduce_optimized time with comms = 0.236938
+MPI_Gather_default time = 0.017581
+MPI_Gather_optimized time optimized without comms = 0.024388
+MPI_Gather_optimized time only comms = 0.171495
+MPI_Gather_optimized time with comms= 0.195883
+MPI_Alltoallv_default time = 0.068750
+MPI_Alltoallv_optimized time without comms = 0.050373
+MPI_Alltoallv_optimized time only comms = 0.165951
+MPI_Alltoallv_optimized time with comms = 0.216324
+
+E = 6, P = 4, ppn = 1, D = 256
+MPI_Bcast_default time = 0.468936
+MPI_Bcast_optimized time optimized without comms = 0.403149
+MPI_Bcast_optimized time only comms = 0.328641
+MPI_Bcast_optimized time with comms = 0.731790
+MPI_Reduce_default time = 0.340413
+MPI_Reduce_optimized time optimized without comms = 0.287215
+MPI_Reduce_optimized time only comms = 0.389512
+MPI_Reduce_optimized time with comms = 0.676726
+MPI_Gather_default time = 0.311241
+MPI_Gather_optimized time optimized without comms = 0.406735
+MPI_Gather_optimized time only comms = 0.269837
+MPI_Gather_optimized time with comms= 0.676572
+MPI_Alltoallv_default time = 0.056806
+MPI_Alltoallv_optimized time without comms = 0.230257
+MPI_Alltoallv_optimized time only comms = 0.226437
+MPI_Alltoallv_optimized time with comms = 0.456694
+
+E = 6, P = 4, ppn = 1, D = 2048
+MPI_Bcast_default time = 0.634694
+MPI_Bcast_optimized time optimized without comms = 0.648261
+MPI_Bcast_optimized time only comms = 0.265937
+MPI_Bcast_optimized time with comms = 0.914198
+MPI_Reduce_default time = 0.865328
+MPI_Reduce_optimized time optimized without comms = 0.806582
+MPI_Reduce_optimized time only comms = 0.515505
+MPI_Reduce_optimized time with comms = 1.322087
+MPI_Gather_default time = 0.814413
+MPI_Gather_optimized time optimized without comms = 1.298564
+MPI_Gather_optimized time only comms = 0.782001
+MPI_Gather_optimized time with comms= 2.080565
+MPI_Alltoallv_default time = 0.172728
+MPI_Alltoallv_optimized time without comms = 0.588810
+MPI_Alltoallv_optimized time only comms = 0.315487
+MPI_Alltoallv_optimized time with comms = 0.904297
+
+E = 6, P = 4, ppn = 8, D = 16
+MPI_Bcast_default time = 0.265597
+MPI_Bcast_optimized time optimized without comms = 0.246399
+MPI_Bcast_optimized time only comms = 1.071537
+MPI_Bcast_optimized time with comms = 1.317936
+MPI_Reduce_default time = 0.389320
+MPI_Reduce_optimized time optimized without comms = 0.255224
+MPI_Reduce_optimized time only comms = 1.103132
+MPI_Reduce_optimized time with comms = 1.358356
+MPI_Gather_default time = 0.226348
+MPI_Gather_optimized time optimized without comms = 0.293780
+MPI_Gather_optimized time only comms = 1.195898
+MPI_Gather_optimized time with comms= 1.489677
+MPI_Alltoallv_default time = 0.259659
+MPI_Alltoallv_optimized time without comms = 0.319025
+MPI_Alltoallv_optimized time only comms = 0.948268
+MPI_Alltoallv_optimized time with comms = 1.267293
+
+E = 6, P = 4, ppn = 8, D = 256
+MPI_Bcast_default time = 0.541478
+MPI_Bcast_optimized time optimized without comms = 0.511185
+MPI_Bcast_optimized time only comms = 0.739375
+MPI_Bcast_optimized time with comms = 1.250560
+MPI_Reduce_default time = 0.628931
+MPI_Reduce_optimized time optimized without comms = 0.629270
+MPI_Reduce_optimized time only comms = 1.117254
+MPI_Reduce_optimized time with comms = 1.746524
+MPI_Gather_default time = 0.495056
+MPI_Gather_optimized time optimized without comms = 0.785437
+MPI_Gather_optimized time only comms = 1.336530
+MPI_Gather_optimized time with comms= 2.121967
+MPI_Alltoallv_default time = 0.199033
+MPI_Alltoallv_optimized time without comms = 0.404871
+MPI_Alltoallv_optimized time only comms = 0.806034
+MPI_Alltoallv_optimized time with comms = 1.210905
+
+E = 6, P = 4, ppn = 8, D = 2048
+MPI_Bcast_default time = 1.674427
+MPI_Bcast_optimized time optimized without comms = 0.942193
+MPI_Bcast_optimized time only comms = 0.592407
+MPI_Bcast_optimized time with comms = 1.534599
+MPI_Reduce_default time = 1.377269
+MPI_Reduce_optimized time optimized without comms = 1.405822
+MPI_Reduce_optimized time only comms = 1.537474
+MPI_Reduce_optimized time with comms = 2.943296
+MPI_Gather_default time = 3.481190
+MPI_Gather_optimized time optimized without comms = 4.873540
+MPI_Gather_optimized time only comms = 6.614886
+MPI_Gather_optimized time with comms= 11.488427
+MPI_Alltoallv_default time = 0.778866
+MPI_Alltoallv_optimized time without comms = 2.867968
+MPI_Alltoallv_optimized time only comms = 2.132721
+MPI_Alltoallv_optimized time with comms = 5.000690
+
+E = 6, P = 16, ppn = 1, D = 16
+MPI_Bcast_default time = 0.080101
+MPI_Bcast_optimized time optimized without comms = 0.090365
+MPI_Bcast_optimized time only comms = 0.227617
+MPI_Bcast_optimized time with comms = 0.317982
+MPI_Reduce_default time = 0.096983
+MPI_Reduce_optimized time optimized without comms = 0.070688
+MPI_Reduce_optimized time only comms = 0.257355
+MPI_Reduce_optimized time with comms = 0.328043
+MPI_Gather_default time = 0.017739
+MPI_Gather_optimized time optimized without comms = 0.069713
+MPI_Gather_optimized time only comms = 0.290835
+MPI_Gather_optimized time with comms= 0.360548
+MPI_Alltoallv_default time = 0.225867
+MPI_Alltoallv_optimized time without comms = 0.192277
+MPI_Alltoallv_optimized time only comms = 0.457546
+MPI_Alltoallv_optimized time with comms = 0.649823
+
+E = 6, P = 16, ppn = 1, D = 256
+MPI_Bcast_default time = 1.077847
+MPI_Bcast_optimized time optimized without comms = 0.943339
+MPI_Bcast_optimized time only comms = 0.490410
+MPI_Bcast_optimized time with comms = 1.433749
+MPI_Reduce_default time = 0.174516
+MPI_Reduce_optimized time optimized without comms = 0.127372
+MPI_Reduce_optimized time only comms = 0.276703
+MPI_Reduce_optimized time with comms = 0.404075
+MPI_Gather_default time = 0.457306
+MPI_Gather_optimized time optimized without comms = 0.582923
+MPI_Gather_optimized time only comms = 0.623047
+MPI_Gather_optimized time with comms= 1.205970
+MPI_Alltoallv_default time = 0.125438
+MPI_Alltoallv_optimized time without comms = 0.244489
+MPI_Alltoallv_optimized time only comms = 0.184480
+MPI_Alltoallv_optimized time with comms = 0.428970
+
+E = 6, P = 16, ppn = 1, D = 2048
+MPI_Bcast_default time = 0.375879
+MPI_Bcast_optimized time optimized without comms = 0.226089
+MPI_Bcast_optimized time only comms = 0.120164
+MPI_Bcast_optimized time with comms = 0.346253
+MPI_Reduce_default time = 0.283375
+MPI_Reduce_optimized time optimized without comms = 0.189414
+MPI_Reduce_optimized time only comms = 0.162352
+MPI_Reduce_optimized time with comms = 0.351765
+MPI_Gather_default time = 0.453560
+MPI_Gather_optimized time optimized without comms = 0.829831
+MPI_Gather_optimized time only comms = 0.710368
+MPI_Gather_optimized time with comms= 1.540199
+MPI_Alltoallv_default time = 0.413551
+MPI_Alltoallv_optimized time without comms = 0.768133
+MPI_Alltoallv_optimized time only comms = 0.287975
+MPI_Alltoallv_optimized time with comms = 1.056108
+
+E = 6, P = 16, ppn = 8, D = 16
+MPI_Bcast_default time = 0.214974
+MPI_Bcast_optimized time optimized without comms = 0.208783
+MPI_Bcast_optimized time only comms = 0.646028
+MPI_Bcast_optimized time with comms = 0.854810
+MPI_Reduce_default time = 0.218629
+MPI_Reduce_optimized time optimized without comms = 0.237362
+MPI_Reduce_optimized time only comms = 0.654429
+MPI_Reduce_optimized time with comms = 0.891791
+MPI_Gather_default time = 0.221429
+MPI_Gather_optimized time optimized without comms = 0.289663
+MPI_Gather_optimized time only comms = 0.954322
+MPI_Gather_optimized time with comms= 1.243985
+MPI_Alltoallv_default time = 0.665606
+MPI_Alltoallv_optimized time without comms = 0.416164
+MPI_Alltoallv_optimized time only comms = 0.897117
+MPI_Alltoallv_optimized time with comms = 1.313281
+
+E = 6, P = 16, ppn = 8, D = 256
+MPI_Bcast_default time = 0.429585
+MPI_Bcast_optimized time optimized without comms = 0.484702
+MPI_Bcast_optimized time only comms = 0.745414
+MPI_Bcast_optimized time with comms = 1.230116
+MPI_Reduce_default time = 0.444753
+MPI_Reduce_optimized time optimized without comms = 0.394293
+MPI_Reduce_optimized time only comms = 1.025841
+MPI_Reduce_optimized time with comms = 1.420134
+MPI_Gather_default time = 1.728139
+MPI_Gather_optimized time optimized without comms = 2.658079
+MPI_Gather_optimized time only comms = 2.934720
+MPI_Gather_optimized time with comms= 5.592800
+MPI_Alltoallv_default time = 1.334542
+MPI_Alltoallv_optimized time without comms = 1.731278
+MPI_Alltoallv_optimized time only comms = 2.052752
+MPI_Alltoallv_optimized time with comms = 3.784030
+
+E = 6, P = 16, ppn = 8, D = 2048
+MPI_Bcast_default time = 1.116367
+MPI_Bcast_optimized time optimized without comms = 1.136702
+MPI_Bcast_optimized time only comms = 1.433575
+MPI_Bcast_optimized time with comms = 2.570277
+MPI_Reduce_default time = 1.182885
+MPI_Reduce_optimized time optimized without comms = 1.070422
+MPI_Reduce_optimized time only comms = 1.334695
+MPI_Reduce_optimized time with comms = 2.405117
+MPI_Gather_default time = 8.071325
+MPI_Gather_optimized time optimized without comms = 13.171047
+MPI_Gather_optimized time only comms = 12.781018
+MPI_Gather_optimized time with comms= 25.952065
+MPI_Alltoallv_default time = 11.891874
+MPI_Alltoallv_optimized time without comms = 8.275840
+MPI_Alltoallv_optimized time only comms = 5.486603
+MPI_Alltoallv_optimized time with comms = 13.762443
+
+E = 7, P = 4, ppn = 1, D = 16
+MPI_Bcast_default time = 0.021258
+MPI_Bcast_optimized time optimized without comms = 0.025897
+MPI_Bcast_optimized time only comms = 0.063009
+MPI_Bcast_optimized time with comms = 0.088906
+MPI_Reduce_default time = 0.023691
+MPI_Reduce_optimized time optimized without comms = 0.033560
+MPI_Reduce_optimized time only comms = 0.079103
+MPI_Reduce_optimized time with comms = 0.112664
+MPI_Gather_default time = 0.001464
+MPI_Gather_optimized time optimized without comms = 0.003836
+MPI_Gather_optimized time only comms = 0.085426
+MPI_Gather_optimized time with comms= 0.089262
+MPI_Alltoallv_default time = 0.018230
+MPI_Alltoallv_optimized time without comms = 0.024193
+MPI_Alltoallv_optimized time only comms = 0.125412
+MPI_Alltoallv_optimized time with comms = 0.149605
+
+E = 7, P = 4, ppn = 1, D = 256
+MPI_Bcast_default time = 0.170608
+MPI_Bcast_optimized time optimized without comms = 0.101006
+MPI_Bcast_optimized time only comms = 0.272367
+MPI_Bcast_optimized time with comms = 0.373373
+MPI_Reduce_default time = 0.075591
+MPI_Reduce_optimized time optimized without comms = 0.119654
+MPI_Reduce_optimized time only comms = 0.131003
+MPI_Reduce_optimized time with comms = 0.250657
+MPI_Gather_default time = 0.053421
+MPI_Gather_optimized time optimized without comms = 0.067108
+MPI_Gather_optimized time only comms = 0.141174
+MPI_Gather_optimized time with comms= 0.208282
+MPI_Alltoallv_default time = 0.024578
+MPI_Alltoallv_optimized time without comms = 0.066630
+MPI_Alltoallv_optimized time only comms = 0.126966
+MPI_Alltoallv_optimized time with comms = 0.193595
+
+E = 7, P = 4, ppn = 1, D = 2048
+MPI_Bcast_default time = 0.269024
+MPI_Bcast_optimized time optimized without comms = 0.329123
+MPI_Bcast_optimized time only comms = 0.179115
+MPI_Bcast_optimized time with comms = 0.508238
+MPI_Reduce_default time = 0.627537
+MPI_Reduce_optimized time optimized without comms = 0.486473
+MPI_Reduce_optimized time only comms = 0.310905
+MPI_Reduce_optimized time with comms = 0.797378
+MPI_Gather_default time = 0.259504
+MPI_Gather_optimized time optimized without comms = 0.285501
+MPI_Gather_optimized time only comms = 0.313536
+MPI_Gather_optimized time with comms= 0.599037
+MPI_Alltoallv_default time = 0.079625
+MPI_Alltoallv_optimized time without comms = 0.185940
+MPI_Alltoallv_optimized time only comms = 0.246802
+MPI_Alltoallv_optimized time with comms = 0.432742
+
+E = 7, P = 4, ppn = 8, D = 16
+MPI_Bcast_default time = 0.166390
+MPI_Bcast_optimized time optimized without comms = 0.161014
+MPI_Bcast_optimized time only comms = 0.509840
+MPI_Bcast_optimized time with comms = 0.670854
+MPI_Reduce_default time = 0.197329
+MPI_Reduce_optimized time optimized without comms = 0.156245
+MPI_Reduce_optimized time only comms = 0.500681
+MPI_Reduce_optimized time with comms = 0.656926
+MPI_Gather_default time = 0.117601
+MPI_Gather_optimized time optimized without comms = 0.119433
+MPI_Gather_optimized time only comms = 0.645508
+MPI_Gather_optimized time with comms= 0.764941
+MPI_Alltoallv_default time = 0.223195
+MPI_Alltoallv_optimized time without comms = 0.279937
+MPI_Alltoallv_optimized time only comms = 0.643843
+MPI_Alltoallv_optimized time with comms = 0.923780
+
+E = 7, P = 4, ppn = 8, D = 256
+MPI_Bcast_default time = 0.196027
+MPI_Bcast_optimized time optimized without comms = 0.194975
+MPI_Bcast_optimized time only comms = 0.335752
+MPI_Bcast_optimized time with comms = 0.530727
+MPI_Reduce_default time = 0.334397
+MPI_Reduce_optimized time optimized without comms = 0.262266
+MPI_Reduce_optimized time only comms = 0.483790
+MPI_Reduce_optimized time with comms = 0.746056
+MPI_Gather_default time = 0.237563
+MPI_Gather_optimized time optimized without comms = 0.333348
+MPI_Gather_optimized time only comms = 0.689660
+MPI_Gather_optimized time with comms= 1.023008
+MPI_Alltoallv_default time = 0.124767
+MPI_Alltoallv_optimized time without comms = 0.202474
+MPI_Alltoallv_optimized time only comms = 0.395275
+MPI_Alltoallv_optimized time with comms = 0.597749
+
+E = 7, P = 4, ppn = 8, D = 2048
+MPI_Bcast_default time = 1.004961
+MPI_Bcast_optimized time optimized without comms = 0.588136
+MPI_Bcast_optimized time only comms = 0.443027
+MPI_Bcast_optimized time with comms = 1.031163
+MPI_Reduce_default time = 0.992645
+MPI_Reduce_optimized time optimized without comms = 0.775556
+MPI_Reduce_optimized time only comms = 0.984128
+MPI_Reduce_optimized time with comms = 1.759684
+MPI_Gather_default time = 1.750646
+MPI_Gather_optimized time optimized without comms = 2.555412
+MPI_Gather_optimized time only comms = 3.415494
+MPI_Gather_optimized time with comms= 5.970906
+MPI_Alltoallv_default time = 0.790058
+MPI_Alltoallv_optimized time without comms = 2.226666
+MPI_Alltoallv_optimized time only comms = 1.611547
+MPI_Alltoallv_optimized time with comms = 3.838213
+
+E = 7, P = 16, ppn = 1, D = 16
+MPI_Bcast_default time = 0.124449
+MPI_Bcast_optimized time optimized without comms = 0.115178
+MPI_Bcast_optimized time only comms = 0.225497
+MPI_Bcast_optimized time with comms = 0.340675
+MPI_Reduce_default time = 0.070222
+MPI_Reduce_optimized time optimized without comms = 0.068437
+MPI_Reduce_optimized time only comms = 0.197799
+MPI_Reduce_optimized time with comms = 0.266236
+MPI_Gather_default time = 0.016014
+MPI_Gather_optimized time optimized without comms = 0.063731
+MPI_Gather_optimized time only comms = 0.252147
+MPI_Gather_optimized time with comms= 0.315878
+MPI_Alltoallv_default time = 0.088593
+MPI_Alltoallv_optimized time without comms = 0.065693
+MPI_Alltoallv_optimized time only comms = 0.232226
+MPI_Alltoallv_optimized time with comms = 0.297919
+
+E = 7, P = 16, ppn = 1, D = 256
+MPI_Bcast_default time = 0.118030
+MPI_Bcast_optimized time optimized without comms = 0.174941
+MPI_Bcast_optimized time only comms = 0.217264
+MPI_Bcast_optimized time with comms = 0.392205
+MPI_Reduce_default time = 0.114623
+MPI_Reduce_optimized time optimized without comms = 0.188719
+MPI_Reduce_optimized time only comms = 0.314553
+MPI_Reduce_optimized time with comms = 0.503272
+MPI_Gather_default time = 0.241004
+MPI_Gather_optimized time optimized without comms = 0.464837
+MPI_Gather_optimized time only comms = 0.587076
+MPI_Gather_optimized time with comms= 1.051913
+MPI_Alltoallv_default time = 0.284413
+MPI_Alltoallv_optimized time without comms = 0.357274
+MPI_Alltoallv_optimized time only comms = 0.286623
+MPI_Alltoallv_optimized time with comms = 0.643897
+
+E = 7, P = 16, ppn = 1, D = 2048
+MPI_Bcast_default time = 0.475689
+MPI_Bcast_optimized time optimized without comms = 0.412418
+MPI_Bcast_optimized time only comms = 0.272650
+MPI_Bcast_optimized time with comms = 0.685068
+MPI_Reduce_default time = 0.442262
+MPI_Reduce_optimized time optimized without comms = 0.451770
+MPI_Reduce_optimized time only comms = 0.417621
+MPI_Reduce_optimized time with comms = 0.869391
+MPI_Gather_default time = 0.509233
+MPI_Gather_optimized time optimized without comms = 0.939290
+MPI_Gather_optimized time only comms = 0.964143
+MPI_Gather_optimized time with comms= 1.903433
+MPI_Alltoallv_default time = 0.408881
+MPI_Alltoallv_optimized time without comms = 0.595771
+MPI_Alltoallv_optimized time only comms = 0.284834
+MPI_Alltoallv_optimized time with comms = 0.880605
+
+E = 7, P = 16, ppn = 8, D = 16
+MPI_Bcast_default time = 0.260799
+MPI_Bcast_optimized time optimized without comms = 0.366255
+MPI_Bcast_optimized time only comms = 0.914495
+MPI_Bcast_optimized time with comms = 1.280751
+MPI_Reduce_default time = 0.280463
+MPI_Reduce_optimized time optimized without comms = 0.234813
+MPI_Reduce_optimized time only comms = 1.023871
+MPI_Reduce_optimized time with comms = 1.258684
+MPI_Gather_default time = 0.235973
+MPI_Gather_optimized time optimized without comms = 0.410026
+MPI_Gather_optimized time only comms = 1.019904
+MPI_Gather_optimized time with comms= 1.429930
+MPI_Alltoallv_default time = 0.843741
+MPI_Alltoallv_optimized time without comms = 0.208697
+MPI_Alltoallv_optimized time only comms = 1.248758
+MPI_Alltoallv_optimized time with comms = 1.457455
+
+E = 7, P = 16, ppn = 8, D = 256
+MPI_Bcast_default time = 0.456787
+MPI_Bcast_optimized time optimized without comms = 0.511822
+MPI_Bcast_optimized time only comms = 0.775807
+MPI_Bcast_optimized time with comms = 1.287630
+MPI_Reduce_default time = 0.417261
+MPI_Reduce_optimized time optimized without comms = 0.321181
+MPI_Reduce_optimized time only comms = 0.741111
+MPI_Reduce_optimized time with comms = 1.062292
+MPI_Gather_default time = 1.174240
+MPI_Gather_optimized time optimized without comms = 1.709326
+MPI_Gather_optimized time only comms = 2.131336
+MPI_Gather_optimized time with comms= 3.840662
+MPI_Alltoallv_default time = 1.306497
+MPI_Alltoallv_optimized time without comms = 1.070799
+MPI_Alltoallv_optimized time only comms = 1.251056
+MPI_Alltoallv_optimized time with comms = 2.321855
+
+E = 7, P = 16, ppn = 8, D = 2048
+MPI_Bcast_default time = 2.220509
+MPI_Bcast_optimized time optimized without comms = 1.682098
+MPI_Bcast_optimized time only comms = 1.223773
+MPI_Bcast_optimized time with comms = 2.905871
+MPI_Reduce_default time = 3.012344
+MPI_Reduce_optimized time optimized without comms = 2.542488
+MPI_Reduce_optimized time only comms = 3.031619
+MPI_Reduce_optimized time with comms = 5.574107
+MPI_Gather_default time = 11.424868
+MPI_Gather_optimized time optimized without comms = 20.023174
+MPI_Gather_optimized time only comms = 21.260559
+MPI_Gather_optimized time with comms= 41.283733
+MPI_Alltoallv_default time = 4.966440
+MPI_Alltoallv_optimized time without comms = 7.792539
+MPI_Alltoallv_optimized time only comms = 5.088833
+MPI_Alltoallv_optimized time with comms = 12.881372
+
+E = 8, P = 4, ppn = 1, D = 16
+MPI_Bcast_default time = 0.041319
+MPI_Bcast_optimized time optimized without comms = 0.032663
+MPI_Bcast_optimized time only comms = 0.125424
+MPI_Bcast_optimized time with comms = 0.158087
+MPI_Reduce_default time = 0.031996
+MPI_Reduce_optimized time optimized without comms = 0.027490
+MPI_Reduce_optimized time only comms = 0.103207
+MPI_Reduce_optimized time with comms = 0.130697
+MPI_Gather_default time = 0.004629
+MPI_Gather_optimized time optimized without comms = 0.016289
+MPI_Gather_optimized time only comms = 0.129844
+MPI_Gather_optimized time with comms= 0.146133
+MPI_Alltoallv_default time = 0.023932
+MPI_Alltoallv_optimized time without comms = 0.025434
+MPI_Alltoallv_optimized time only comms = 0.073943
+MPI_Alltoallv_optimized time with comms = 0.099377
+
+E = 8, P = 4, ppn = 1, D = 256
+MPI_Bcast_default time = 0.109882
+MPI_Bcast_optimized time optimized without comms = 0.124079
+MPI_Bcast_optimized time only comms = 0.126404
+MPI_Bcast_optimized time with comms = 0.250483
+MPI_Reduce_default time = 0.107512
+MPI_Reduce_optimized time optimized without comms = 0.137438
+MPI_Reduce_optimized time only comms = 0.173016
+MPI_Reduce_optimized time with comms = 0.310454
+MPI_Gather_default time = 0.101512
+MPI_Gather_optimized time optimized without comms = 0.157347
+MPI_Gather_optimized time only comms = 0.217608
+MPI_Gather_optimized time with comms= 0.374955
+MPI_Alltoallv_default time = 0.037358
+MPI_Alltoallv_optimized time without comms = 0.089303
+MPI_Alltoallv_optimized time only comms = 0.102943
+MPI_Alltoallv_optimized time with comms = 0.192246
+
+E = 8, P = 4, ppn = 1, D = 2048
+MPI_Bcast_default time = 0.304525
+MPI_Bcast_optimized time optimized without comms = 0.320750
+MPI_Bcast_optimized time only comms = 0.133445
+MPI_Bcast_optimized time with comms = 0.454195
+MPI_Reduce_default time = 0.434245
+MPI_Reduce_optimized time optimized without comms = 0.469703
+MPI_Reduce_optimized time only comms = 0.284473
+MPI_Reduce_optimized time with comms = 0.754176
+MPI_Gather_default time = 0.369763
+MPI_Gather_optimized time optimized without comms = 0.625651
+MPI_Gather_optimized time only comms = 0.593295
+MPI_Gather_optimized time with comms= 1.218946
+MPI_Alltoallv_default time = 0.169539
+MPI_Alltoallv_optimized time without comms = 0.599660
+MPI_Alltoallv_optimized time only comms = 0.317357
+MPI_Alltoallv_optimized time with comms = 0.917017
+
+E = 8, P = 4, ppn = 8, D = 16
+MPI_Bcast_default time = 0.183524
+MPI_Bcast_optimized time optimized without comms = 0.163985
+MPI_Bcast_optimized time only comms = 0.524559
+MPI_Bcast_optimized time with comms = 0.688545
+MPI_Reduce_default time = 0.256011
+MPI_Reduce_optimized time optimized without comms = 0.174381
+MPI_Reduce_optimized time only comms = 0.568678
+MPI_Reduce_optimized time with comms = 0.743059
+MPI_Gather_default time = 0.125396
+MPI_Gather_optimized time optimized without comms = 0.169540
+MPI_Gather_optimized time only comms = 0.696715
+MPI_Gather_optimized time with comms= 0.866256
+MPI_Alltoallv_default time = 0.265614
+MPI_Alltoallv_optimized time without comms = 0.232837
+MPI_Alltoallv_optimized time only comms = 0.635927
+MPI_Alltoallv_optimized time with comms = 0.868764
+
+E = 8, P = 4, ppn = 8, D = 256
+MPI_Bcast_default time = 0.367256
+MPI_Bcast_optimized time optimized without comms = 0.384057
+MPI_Bcast_optimized time only comms = 0.581334
+MPI_Bcast_optimized time with comms = 0.965392
+MPI_Reduce_default time = 0.521063
+MPI_Reduce_optimized time optimized without comms = 0.408485
+MPI_Reduce_optimized time only comms = 0.786158
+MPI_Reduce_optimized time with comms = 1.194643
+MPI_Gather_default time = 0.388242
+MPI_Gather_optimized time optimized without comms = 0.536654
+MPI_Gather_optimized time only comms = 1.035697
+MPI_Gather_optimized time with comms= 1.572351
+MPI_Alltoallv_default time = 0.357630
+MPI_Alltoallv_optimized time without comms = 0.547355
+MPI_Alltoallv_optimized time only comms = 0.774246
+MPI_Alltoallv_optimized time with comms = 1.321601
+
+E = 8, P = 4, ppn = 8, D = 2048
+MPI_Bcast_default time = 1.808005
+MPI_Bcast_optimized time optimized without comms = 1.194068
+MPI_Bcast_optimized time only comms = 0.708939
+MPI_Bcast_optimized time with comms = 1.903007
+MPI_Reduce_default time = 1.988573
+MPI_Reduce_optimized time optimized without comms = 1.803798
+MPI_Reduce_optimized time only comms = 2.064759
+MPI_Reduce_optimized time with comms = 3.868557
+MPI_Gather_default time = 11.176556
+MPI_Gather_optimized time optimized without comms = 12.213786
+MPI_Gather_optimized time only comms = 8.312524
+MPI_Gather_optimized time with comms= 20.526310
+MPI_Alltoallv_default time = 2.675059
+MPI_Alltoallv_optimized time without comms = 6.864833
+MPI_Alltoallv_optimized time only comms = 8.403733
+MPI_Alltoallv_optimized time with comms = 15.268566
+
+E = 8, P = 16, ppn = 1, D = 16
+MPI_Bcast_default time = 0.062557
+MPI_Bcast_optimized time optimized without comms = 0.077331
+MPI_Bcast_optimized time only comms = 0.158181
+MPI_Bcast_optimized time with comms = 0.235512
+MPI_Reduce_default time = 0.046653
+MPI_Reduce_optimized time optimized without comms = 0.049208
+MPI_Reduce_optimized time only comms = 0.162944
+MPI_Reduce_optimized time with comms = 0.212152
+MPI_Gather_default time = 0.113089
+MPI_Gather_optimized time optimized without comms = 0.170811
+MPI_Gather_optimized time only comms = 0.279463
+MPI_Gather_optimized time with comms= 0.450274
+MPI_Alltoallv_default time = 1.142829
+MPI_Alltoallv_optimized time without comms = 0.784663
+MPI_Alltoallv_optimized time only comms = 0.615184
+MPI_Alltoallv_optimized time with comms = 1.399847
+
+E = 8, P = 16, ppn = 1, D = 256
+MPI_Bcast_default time = 0.502814
+MPI_Bcast_optimized time optimized without comms = 0.470714
+MPI_Bcast_optimized time only comms = 0.217000
+MPI_Bcast_optimized time with comms = 0.687714
+MPI_Reduce_default time = 0.209311
+MPI_Reduce_optimized time optimized without comms = 0.467765
+MPI_Reduce_optimized time only comms = 0.587561
+MPI_Reduce_optimized time with comms = 1.055326
+MPI_Gather_default time = 0.214638
+MPI_Gather_optimized time optimized without comms = 0.297858
+MPI_Gather_optimized time only comms = 0.429814
+MPI_Gather_optimized time with comms= 0.727672
+MPI_Alltoallv_default time = 0.453350
+MPI_Alltoallv_optimized time without comms = 0.511936
+MPI_Alltoallv_optimized time only comms = 0.198000
+MPI_Alltoallv_optimized time with comms = 0.709936
+
+E = 8, P = 16, ppn = 1, D = 2048
+MPI_Bcast_default time = 0.424838
+MPI_Bcast_optimized time optimized without comms = 0.364750
+MPI_Bcast_optimized time only comms = 0.251801
+MPI_Bcast_optimized time with comms = 0.616551
+MPI_Reduce_default time = 1.137687
+MPI_Reduce_optimized time optimized without comms = 2.278024
+MPI_Reduce_optimized time only comms = 2.179974
+MPI_Reduce_optimized time with comms = 4.457998
+MPI_Gather_default time = 6.236510
+MPI_Gather_optimized time optimized without comms = 10.847796
+MPI_Gather_optimized time only comms = 10.773200
+MPI_Gather_optimized time with comms= 21.620997
+MPI_Alltoallv_default time = 0.643973
+MPI_Alltoallv_optimized time without comms = 1.869006
+MPI_Alltoallv_optimized time only comms = 1.333966
+MPI_Alltoallv_optimized time with comms = 3.202972
+
+E = 8, P = 16, ppn = 8, D = 16
+MPI_Bcast_default time = 0.351195
+MPI_Bcast_optimized time optimized without comms = 0.358274
+MPI_Bcast_optimized time only comms = 0.876551
+MPI_Bcast_optimized time with comms = 1.234825
+MPI_Reduce_default time = 0.323204
+MPI_Reduce_optimized time optimized without comms = 0.266389
+MPI_Reduce_optimized time only comms = 0.944714
+MPI_Reduce_optimized time with comms = 1.211103
+MPI_Gather_default time = 0.272435
+MPI_Gather_optimized time optimized without comms = 0.417674
+MPI_Gather_optimized time only comms = 1.194313
+MPI_Gather_optimized time with comms= 1.611987
+MPI_Alltoallv_default time = 0.616048
+MPI_Alltoallv_optimized time without comms = 0.230742
+MPI_Alltoallv_optimized time only comms = 0.914757
+MPI_Alltoallv_optimized time with comms = 1.145499
+
+E = 8, P = 16, ppn = 8, D = 256
+MPI_Bcast_default time = 0.959194
+MPI_Bcast_optimized time optimized without comms = 1.298330
+MPI_Bcast_optimized time only comms = 2.392658
+MPI_Bcast_optimized time with comms = 3.690988
+MPI_Reduce_default time = 3.601035
+MPI_Reduce_optimized time optimized without comms = 3.485596
+MPI_Reduce_optimized time only comms = 3.333338
+MPI_Reduce_optimized time with comms = 6.818934
+MPI_Gather_default time = 2.936236
+MPI_Gather_optimized time optimized without comms = 6.466395
+MPI_Gather_optimized time only comms = 8.537490
+MPI_Gather_optimized time with comms= 15.003886
+MPI_Alltoallv_default time = 0.928033
+MPI_Alltoallv_optimized time without comms = 0.983771
+MPI_Alltoallv_optimized time only comms = 1.544970
+MPI_Alltoallv_optimized time with comms = 2.528741
+
+E = 8, P = 16, ppn = 8, D = 2048
+MPI_Bcast_default time = 1.620663
+MPI_Bcast_optimized time optimized without comms = 1.273332
+MPI_Bcast_optimized time only comms = 1.138654
+MPI_Bcast_optimized time with comms = 2.411986
+MPI_Reduce_default time = 2.900731
+MPI_Reduce_optimized time optimized without comms = 4.014817
+MPI_Reduce_optimized time only comms = 3.996474
+MPI_Reduce_optimized time with comms = 8.011292
+MPI_Gather_default time = 21.514856
+MPI_Gather_optimized time optimized without comms = 23.325287
+MPI_Gather_optimized time only comms = 23.140418
+MPI_Gather_optimized time with comms= 46.465705
+MPI_Alltoallv_default time = 14.665558
+MPI_Alltoallv_optimized time without comms = 11.185175
+MPI_Alltoallv_optimized time only comms = 8.574246
+MPI_Alltoallv_optimized time with comms = 19.759420
+
+E = 9, P = 4, ppn = 1, D = 16
+MPI_Bcast_default time = 0.045542
+MPI_Bcast_optimized time optimized without comms = 0.044894
+MPI_Bcast_optimized time only comms = 0.128600
+MPI_Bcast_optimized time with comms = 0.173493
+MPI_Reduce_default time = 0.051508
+MPI_Reduce_optimized time optimized without comms = 0.045509
+MPI_Reduce_optimized time only comms = 0.163519
+MPI_Reduce_optimized time with comms = 0.209027
+MPI_Gather_default time = 0.053774
+MPI_Gather_optimized time optimized without comms = 0.008222
+MPI_Gather_optimized time only comms = 0.184209
+MPI_Gather_optimized time with comms= 0.192430
+MPI_Alltoallv_default time = 0.056793
+MPI_Alltoallv_optimized time without comms = 0.044213
+MPI_Alltoallv_optimized time only comms = 0.151870
+MPI_Alltoallv_optimized time with comms = 0.196083
+
+E = 9, P = 4, ppn = 1, D = 256
+MPI_Bcast_default time = 0.172003
+MPI_Bcast_optimized time optimized without comms = 0.144050
+MPI_Bcast_optimized time only comms = 0.180155
+MPI_Bcast_optimized time with comms = 0.324204
+MPI_Reduce_default time = 0.117633
+MPI_Reduce_optimized time optimized without comms = 0.173146
+MPI_Reduce_optimized time only comms = 0.177566
+MPI_Reduce_optimized time with comms = 0.350712
+MPI_Gather_default time = 0.150897
+MPI_Gather_optimized time optimized without comms = 0.209143
+MPI_Gather_optimized time only comms = 0.251677
+MPI_Gather_optimized time with comms= 0.460820
+MPI_Alltoallv_default time = 0.051648
+MPI_Alltoallv_optimized time without comms = 0.245873
+MPI_Alltoallv_optimized time only comms = 0.154153
+MPI_Alltoallv_optimized time with comms = 0.400027
+
+E = 9, P = 4, ppn = 1, D = 2048
+MPI_Bcast_default time = 0.390816
+MPI_Bcast_optimized time optimized without comms = 0.568485
+MPI_Bcast_optimized time only comms = 0.168443
+MPI_Bcast_optimized time with comms = 0.736927
+MPI_Reduce_default time = 0.494381
+MPI_Reduce_optimized time optimized without comms = 0.603274
+MPI_Reduce_optimized time only comms = 0.314261
+MPI_Reduce_optimized time with comms = 0.917536
+MPI_Gather_default time = 0.462551
+MPI_Gather_optimized time optimized without comms = 1.031643
+MPI_Gather_optimized time only comms = 0.887653
+MPI_Gather_optimized time with comms= 1.919297
+MPI_Alltoallv_default time = 0.053966
+MPI_Alltoallv_optimized time without comms = 0.181805
+MPI_Alltoallv_optimized time only comms = 0.272997
+MPI_Alltoallv_optimized time with comms = 0.454802
+
+E = 9, P = 4, ppn = 8, D = 16
+MPI_Bcast_default time = 0.182401
+MPI_Bcast_optimized time optimized without comms = 0.173589
+MPI_Bcast_optimized time only comms = 0.593829
+MPI_Bcast_optimized time with comms = 0.767418
+MPI_Reduce_default time = 0.238398
+MPI_Reduce_optimized time optimized without comms = 0.212069
+MPI_Reduce_optimized time only comms = 0.658334
+MPI_Reduce_optimized time with comms = 0.870403
+MPI_Gather_default time = 0.164364
+MPI_Gather_optimized time optimized without comms = 0.195965
+MPI_Gather_optimized time only comms = 0.882656
+MPI_Gather_optimized time with comms= 1.078621
+MPI_Alltoallv_default time = 0.441618
+MPI_Alltoallv_optimized time without comms = 0.212865
+MPI_Alltoallv_optimized time only comms = 0.650558
+MPI_Alltoallv_optimized time with comms = 0.863424
+
+E = 9, P = 4, ppn = 8, D = 256
+MPI_Bcast_default time = 0.368907
+MPI_Bcast_optimized time optimized without comms = 0.440763
+MPI_Bcast_optimized time only comms = 0.746480
+MPI_Bcast_optimized time with comms = 1.187242
+MPI_Reduce_default time = 0.491346
+MPI_Reduce_optimized time optimized without comms = 0.527275
+MPI_Reduce_optimized time only comms = 0.970813
+MPI_Reduce_optimized time with comms = 1.498088
+MPI_Gather_default time = 0.397657
+MPI_Gather_optimized time optimized without comms = 0.621982
+MPI_Gather_optimized time only comms = 1.199528
+MPI_Gather_optimized time with comms= 1.821510
+MPI_Alltoallv_default time = 0.188419
+MPI_Alltoallv_optimized time without comms = 0.370153
+MPI_Alltoallv_optimized time only comms = 0.620938
+MPI_Alltoallv_optimized time with comms = 0.991091
+
+E = 9, P = 4, ppn = 8, D = 2048
+MPI_Bcast_default time = 1.755202
+MPI_Bcast_optimized time optimized without comms = 0.975357
+MPI_Bcast_optimized time only comms = 0.646237
+MPI_Bcast_optimized time with comms = 1.621594
+MPI_Reduce_default time = 1.727256
+MPI_Reduce_optimized time optimized without comms = 1.533819
+MPI_Reduce_optimized time only comms = 1.578240
+MPI_Reduce_optimized time with comms = 3.112059
+MPI_Gather_default time = 5.122300
+MPI_Gather_optimized time optimized without comms = 6.409350
+MPI_Gather_optimized time only comms = 8.473992
+MPI_Gather_optimized time with comms= 14.883342
+MPI_Alltoallv_default time = 1.009884
+MPI_Alltoallv_optimized time without comms = 3.137406
+MPI_Alltoallv_optimized time only comms = 3.006866
+MPI_Alltoallv_optimized time with comms = 6.144272
+
+E = 9, P = 16, ppn = 1, D = 16
+MPI_Bcast_default time = 0.162731
+MPI_Bcast_optimized time optimized without comms = 0.152266
+MPI_Bcast_optimized time only comms = 0.273565
+MPI_Bcast_optimized time with comms = 0.425831
+MPI_Reduce_default time = 0.093108
+MPI_Reduce_optimized time optimized without comms = 0.082725
+MPI_Reduce_optimized time only comms = 0.254241
+MPI_Reduce_optimized time with comms = 0.336966
+MPI_Gather_default time = 0.018201
+MPI_Gather_optimized time optimized without comms = 0.093514
+MPI_Gather_optimized time only comms = 0.297705
+MPI_Gather_optimized time with comms= 0.391220
+MPI_Alltoallv_default time = 0.100407
+MPI_Alltoallv_optimized time without comms = 0.081532
+MPI_Alltoallv_optimized time only comms = 0.277622
+MPI_Alltoallv_optimized time with comms = 0.359154
+
+E = 9, P = 16, ppn = 1, D = 256
+MPI_Bcast_default time = 0.190541
+MPI_Bcast_optimized time optimized without comms = 0.250339
+MPI_Bcast_optimized time only comms = 0.301746
+MPI_Bcast_optimized time with comms = 0.552085
+MPI_Reduce_default time = 0.157348
+MPI_Reduce_optimized time optimized without comms = 0.145706
+MPI_Reduce_optimized time only comms = 0.298173
+MPI_Reduce_optimized time with comms = 0.443878
+MPI_Gather_default time = 0.334708
+MPI_Gather_optimized time optimized without comms = 0.695267
+MPI_Gather_optimized time only comms = 0.957929
+MPI_Gather_optimized time with comms= 1.653196
+MPI_Alltoallv_default time = 0.230054
+MPI_Alltoallv_optimized time without comms = 0.384654
+MPI_Alltoallv_optimized time only comms = 0.428579
+MPI_Alltoallv_optimized time with comms = 0.813233
+
+E = 9, P = 16, ppn = 1, D = 2048
+MPI_Bcast_default time = 1.968891
+MPI_Bcast_optimized time optimized without comms = 1.194829
+MPI_Bcast_optimized time only comms = 0.753809
+MPI_Bcast_optimized time with comms = 1.948638
+MPI_Reduce_default time = 1.881867
+MPI_Reduce_optimized time optimized without comms = 1.160000
+MPI_Reduce_optimized time only comms = 0.988773
+MPI_Reduce_optimized time with comms = 2.148773
+MPI_Gather_default time = 1.883919
+MPI_Gather_optimized time optimized without comms = 3.110321
+MPI_Gather_optimized time only comms = 3.000583
+MPI_Gather_optimized time with comms= 6.110903
+MPI_Alltoallv_default time = 0.343716
+MPI_Alltoallv_optimized time without comms = 1.115994
+MPI_Alltoallv_optimized time only comms = 1.054420
+MPI_Alltoallv_optimized time with comms = 2.170414
+
+E = 9, P = 16, ppn = 8, D = 16
+MPI_Bcast_default time = 0.366401
+MPI_Bcast_optimized time optimized without comms = 0.281600
+MPI_Bcast_optimized time only comms = 0.987145
+MPI_Bcast_optimized time with comms = 1.268745
+MPI_Reduce_default time = 0.367572
+MPI_Reduce_optimized time optimized without comms = 0.296336
+MPI_Reduce_optimized time only comms = 1.023129
+MPI_Reduce_optimized time with comms = 1.319465
+MPI_Gather_default time = 0.347980
+MPI_Gather_optimized time optimized without comms = 0.510035
+MPI_Gather_optimized time only comms = 1.356477
+MPI_Gather_optimized time with comms= 1.866513
+MPI_Alltoallv_default time = 0.700075
+MPI_Alltoallv_optimized time without comms = 0.309920
+MPI_Alltoallv_optimized time only comms = 1.030301
+MPI_Alltoallv_optimized time with comms = 1.340221
+
+E = 9, P = 16, ppn = 8, D = 256
+MPI_Bcast_default time = 0.536832
+MPI_Bcast_optimized time optimized without comms = 0.660598
+MPI_Bcast_optimized time only comms = 0.962600
+MPI_Bcast_optimized time with comms = 1.623198
+MPI_Reduce_default time = 0.650096
+MPI_Reduce_optimized time optimized without comms = 0.585489
+MPI_Reduce_optimized time only comms = 1.155571
+MPI_Reduce_optimized time with comms = 1.741060
+MPI_Gather_default time = 1.794067
+MPI_Gather_optimized time optimized without comms = 2.785949
+MPI_Gather_optimized time only comms = 3.651863
+MPI_Gather_optimized time with comms= 6.437812
+MPI_Alltoallv_default time = 1.435995
+MPI_Alltoallv_optimized time without comms = 1.256858
+MPI_Alltoallv_optimized time only comms = 1.819776
+MPI_Alltoallv_optimized time with comms = 3.076634
+
+E = 9, P = 16, ppn = 8, D = 2048
+MPI_Bcast_default time = 1.700829
+MPI_Bcast_optimized time optimized without comms = 1.548040
+MPI_Bcast_optimized time only comms = 1.310421
+MPI_Bcast_optimized time with comms = 2.858461
+MPI_Reduce_default time = 1.818120
+MPI_Reduce_optimized time optimized without comms = 1.675861
+MPI_Reduce_optimized time only comms = 1.995121
+MPI_Reduce_optimized time with comms = 3.670983
+MPI_Gather_default time = 10.507015
+MPI_Gather_optimized time optimized without comms = 17.075437
+MPI_Gather_optimized time only comms = 17.461118
+MPI_Gather_optimized time with comms= 34.536555
+MPI_Alltoallv_default time = 3.539955
+MPI_Alltoallv_optimized time without comms = 7.171326
+MPI_Alltoallv_optimized time only comms = 5.877239
+MPI_Alltoallv_optimized time with comms = 13.048565
+
+E = 10, P = 4, ppn = 1, D = 16
+MPI_Bcast_default time = 0.019380
+MPI_Bcast_optimized time optimized without comms = 0.095868
+MPI_Bcast_optimized time only comms = 0.132453
+MPI_Bcast_optimized time with comms = 0.228321
+MPI_Reduce_default time = 0.030067
+MPI_Reduce_optimized time optimized without comms = 0.036323
+MPI_Reduce_optimized time only comms = 0.104177
+MPI_Reduce_optimized time with comms = 0.140500
+MPI_Gather_default time = 0.005416
+MPI_Gather_optimized time optimized without comms = 0.009347
+MPI_Gather_optimized time only comms = 0.122097
+MPI_Gather_optimized time with comms= 0.131443
+MPI_Alltoallv_default time = 0.025284
+MPI_Alltoallv_optimized time without comms = 0.034979
+MPI_Alltoallv_optimized time only comms = 0.123117
+MPI_Alltoallv_optimized time with comms = 0.158096
+
+E = 10, P = 4, ppn = 1, D = 256
+MPI_Bcast_default time = 0.071567
+MPI_Bcast_optimized time optimized without comms = 0.137642
+MPI_Bcast_optimized time only comms = 0.127682
+MPI_Bcast_optimized time with comms = 0.265324
+MPI_Reduce_default time = 0.456703
+MPI_Reduce_optimized time optimized without comms = 0.610612
+MPI_Reduce_optimized time only comms = 0.457247
+MPI_Reduce_optimized time with comms = 1.067859
+MPI_Gather_default time = 0.489459
+MPI_Gather_optimized time optimized without comms = 0.913380
+MPI_Gather_optimized time only comms = 0.879040
+MPI_Gather_optimized time with comms= 1.792419
+MPI_Alltoallv_default time = 0.180607
+MPI_Alltoallv_optimized time without comms = 0.451669
+MPI_Alltoallv_optimized time only comms = 0.369910
+MPI_Alltoallv_optimized time with comms = 0.821580
+
+E = 10, P = 4, ppn = 1, D = 2048
+MPI_Bcast_default time = 1.254536
+MPI_Bcast_optimized time optimized without comms = 2.318773
+MPI_Bcast_optimized time only comms = 0.514386
+MPI_Bcast_optimized time with comms = 2.833159
+MPI_Reduce_default time = 1.108663
+MPI_Reduce_optimized time optimized without comms = 0.709772
+MPI_Reduce_optimized time only comms = 0.748743
+MPI_Reduce_optimized time with comms = 1.458514
+MPI_Gather_default time = 0.201822
+MPI_Gather_optimized time optimized without comms = 0.405486
+MPI_Gather_optimized time only comms = 0.468422
+MPI_Gather_optimized time with comms= 0.873908
+MPI_Alltoallv_default time = 0.161493
+MPI_Alltoallv_optimized time without comms = 0.392439
+MPI_Alltoallv_optimized time only comms = 0.161943
+MPI_Alltoallv_optimized time with comms = 0.554383
+
+E = 10, P = 4, ppn = 8, D = 16
+MPI_Bcast_default time = 0.196631
+MPI_Bcast_optimized time optimized without comms = 0.145349
+MPI_Bcast_optimized time only comms = 0.517964
+MPI_Bcast_optimized time with comms = 0.663312
+MPI_Reduce_default time = 0.227195
+MPI_Reduce_optimized time optimized without comms = 0.153309
+MPI_Reduce_optimized time only comms = 0.625480
+MPI_Reduce_optimized time with comms = 0.778789
+MPI_Gather_default time = 0.167811
+MPI_Gather_optimized time optimized without comms = 0.281357
+MPI_Gather_optimized time only comms = 0.821522
+MPI_Gather_optimized time with comms= 1.102879
+MPI_Alltoallv_default time = 0.254615
+MPI_Alltoallv_optimized time without comms = 0.173606
+MPI_Alltoallv_optimized time only comms = 0.693677
+MPI_Alltoallv_optimized time with comms = 0.867283
+
+E = 10, P = 4, ppn = 8, D = 256
+MPI_Bcast_default time = 0.423474
+MPI_Bcast_optimized time optimized without comms = 0.547130
+MPI_Bcast_optimized time only comms = 0.666977
+MPI_Bcast_optimized time with comms = 1.214107
+MPI_Reduce_default time = 0.530202
+MPI_Reduce_optimized time optimized without comms = 0.639055
+MPI_Reduce_optimized time only comms = 1.042301
+MPI_Reduce_optimized time with comms = 1.681355
+MPI_Gather_default time = 0.932736
+MPI_Gather_optimized time optimized without comms = 1.211653
+MPI_Gather_optimized time only comms = 1.994376
+MPI_Gather_optimized time with comms= 3.206028
+MPI_Alltoallv_default time = 0.489273
+MPI_Alltoallv_optimized time without comms = 0.741626
+MPI_Alltoallv_optimized time only comms = 1.025739
+MPI_Alltoallv_optimized time with comms = 1.767365
+
+E = 10, P = 4, ppn = 8, D = 2048
+MPI_Bcast_default time = 1.900817
+MPI_Bcast_optimized time optimized without comms = 1.335369
+MPI_Bcast_optimized time only comms = 0.761522
+MPI_Bcast_optimized time with comms = 2.096891
+MPI_Reduce_default time = 1.553294
+MPI_Reduce_optimized time optimized without comms = 1.459756
+MPI_Reduce_optimized time only comms = 1.469422
+MPI_Reduce_optimized time with comms = 2.929177
+MPI_Gather_default time = 3.483521
+MPI_Gather_optimized time optimized without comms = 4.242620
+MPI_Gather_optimized time only comms = 5.900259
+MPI_Gather_optimized time with comms= 10.142879
+MPI_Alltoallv_default time = 1.325864
+MPI_Alltoallv_optimized time without comms = 3.315080
+MPI_Alltoallv_optimized time only comms = 1.954732
+MPI_Alltoallv_optimized time with comms = 5.269812
+
+E = 10, P = 16, ppn = 1, D = 16
+MPI_Bcast_default time = 0.082602
+MPI_Bcast_optimized time optimized without comms = 0.077075
+MPI_Bcast_optimized time only comms = 0.227934
+MPI_Bcast_optimized time with comms = 0.305008
+MPI_Reduce_default time = 0.069248
+MPI_Reduce_optimized time optimized without comms = 0.058136
+MPI_Reduce_optimized time only comms = 0.207669
+MPI_Reduce_optimized time with comms = 0.265806
+MPI_Gather_default time = 0.028330
+MPI_Gather_optimized time optimized without comms = 0.047105
+MPI_Gather_optimized time only comms = 0.204361
+MPI_Gather_optimized time with comms= 0.251466
+MPI_Alltoallv_default time = 0.280081
+MPI_Alltoallv_optimized time without comms = 0.047911
+MPI_Alltoallv_optimized time only comms = 0.208230
+MPI_Alltoallv_optimized time with comms = 0.256140
+
+E = 10, P = 16, ppn = 1, D = 256
+MPI_Bcast_default time = 0.304011
+MPI_Bcast_optimized time optimized without comms = 0.260700
+MPI_Bcast_optimized time only comms = 0.248915
+MPI_Bcast_optimized time with comms = 0.509616
+MPI_Reduce_default time = 0.213909
+MPI_Reduce_optimized time optimized without comms = 0.128425
+MPI_Reduce_optimized time only comms = 0.258348
+MPI_Reduce_optimized time with comms = 0.386772
+MPI_Gather_default time = 0.229612
+MPI_Gather_optimized time optimized without comms = 0.321515
+MPI_Gather_optimized time only comms = 0.462333
+MPI_Gather_optimized time with comms= 0.783849
+MPI_Alltoallv_default time = 0.122291
+MPI_Alltoallv_optimized time without comms = 0.151899
+MPI_Alltoallv_optimized time only comms = 0.245972
+MPI_Alltoallv_optimized time with comms = 0.397871
+
+E = 10, P = 16, ppn = 1, D = 2048
+MPI_Bcast_default time = 0.766793
+MPI_Bcast_optimized time optimized without comms = 0.455294
+MPI_Bcast_optimized time only comms = 0.322397
+MPI_Bcast_optimized time with comms = 0.777691
+MPI_Reduce_default time = 1.673103
+MPI_Reduce_optimized time optimized without comms = 2.017672
+MPI_Reduce_optimized time only comms = 1.592907
+MPI_Reduce_optimized time with comms = 3.610578
+MPI_Gather_default time = 7.112091
+MPI_Gather_optimized time optimized without comms = 10.299807
+MPI_Gather_optimized time only comms = 10.957261
+MPI_Gather_optimized time with comms= 21.257068
+MPI_Alltoallv_default time = 0.438828
+MPI_Alltoallv_optimized time without comms = 1.054169
+MPI_Alltoallv_optimized time only comms = 0.608980
+MPI_Alltoallv_optimized time with comms = 1.663148
+
+E = 10, P = 16, ppn = 8, D = 16
+MPI_Bcast_default time = 0.444910
+MPI_Bcast_optimized time optimized without comms = 0.371995
+MPI_Bcast_optimized time only comms = 1.699141
+MPI_Bcast_optimized time with comms = 2.071136
+MPI_Reduce_default time = 0.863188
+MPI_Reduce_optimized time optimized without comms = 0.695990
+MPI_Reduce_optimized time only comms = 3.220731
+MPI_Reduce_optimized time with comms = 3.916721
+MPI_Gather_default time = 1.065748
+MPI_Gather_optimized time optimized without comms = 1.529520
+MPI_Gather_optimized time only comms = 3.579915
+MPI_Gather_optimized time with comms= 5.109435
+MPI_Alltoallv_default time = 2.944050
+MPI_Alltoallv_optimized time without comms = 1.676010
+MPI_Alltoallv_optimized time only comms = 1.852329
+MPI_Alltoallv_optimized time with comms = 3.528339
+
+E = 10, P = 16, ppn = 8, D = 256
+MPI_Bcast_default time = 0.470431
+MPI_Bcast_optimized time optimized without comms = 0.568750
+MPI_Bcast_optimized time only comms = 0.870520
+MPI_Bcast_optimized time with comms = 1.439270
+MPI_Reduce_default time = 1.661699
+MPI_Reduce_optimized time optimized without comms = 1.869489
+MPI_Reduce_optimized time only comms = 2.846528
+MPI_Reduce_optimized time with comms = 4.716017
+MPI_Gather_default time = 8.624867
+MPI_Gather_optimized time optimized without comms = 13.681541
+MPI_Gather_optimized time only comms = 11.554695
+MPI_Gather_optimized time with comms= 25.236236
+MPI_Alltoallv_default time = 1.597645
+MPI_Alltoallv_optimized time without comms = 1.540453
+MPI_Alltoallv_optimized time only comms = 5.601232
+MPI_Alltoallv_optimized time with comms = 7.141684
+
+E = 10, P = 16, ppn = 8, D = 2048
+MPI_Bcast_default time = 1.432706
+MPI_Bcast_optimized time optimized without comms = 1.275137
+MPI_Bcast_optimized time only comms = 1.124376
+MPI_Bcast_optimized time with comms = 2.399512
+MPI_Reduce_default time = 1.696950
+MPI_Reduce_optimized time optimized without comms = 1.417898
+MPI_Reduce_optimized time only comms = 1.953059
+MPI_Reduce_optimized time with comms = 3.370957
+MPI_Gather_default time = 12.921869
+MPI_Gather_optimized time optimized without comms = 22.550073
+MPI_Gather_optimized time only comms = 19.072037
+MPI_Gather_optimized time with comms= 41.622109
+MPI_Alltoallv_default time = 5.765785
+MPI_Alltoallv_optimized time without comms = 9.423926
+MPI_Alltoallv_optimized time only comms = 9.159785
+MPI_Alltoallv_optimized time with comms = 18.583712
